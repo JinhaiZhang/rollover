@@ -1,0 +1,6 @@
+framework module Pods_EnhydrizComponents {
+  umbrella header "Pods-EnhydrizComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

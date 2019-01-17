@@ -1,0 +1,25 @@
+PODS:
+  - Enhydris (0.1.1):
+    - Enhydris/Enhydris (= 0.1.1)
+  - Enhydris/Enhydris (0.1.1)
+  - ReactiveObjC (3.1.0)
+
+DEPENDENCIES:
+  - Enhydris (from `Specs/Enhydris.podspec.json`)
+  - ReactiveObjC
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  Enhydris:
+    :podspec: Specs/Enhydris.podspec.json
+
+SPEC CHECKSUMS:
+  Enhydris: 37d061481b2078ee0cf600842b269c0455f840a3
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+
+PODFILE CHECKSUM: ceffa3d2f088557b1e9b9f793e932632285dbb48
+
+COCOAPODS: 1.6.0.beta.1

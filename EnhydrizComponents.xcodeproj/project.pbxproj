@@ -1,0 +1,1127 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A91F006E7F76BA09D6D17FE /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FCE8351A65493475079C /* Mall.storyboard */; };
+		1A91F0AEB0C82290B79B7DB7 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
+		1A91F0DE3F3BA84E3721EB61 /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F07B8093393F847A66E2 /* IMViewController.m */; };
+		1A91F138F0489D160206B595 /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
+		1A91F13ACBDA4C2494E79FC8 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
+		1A91F15A0E434D1934C432FD /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F97CDD798253894B22D5 /* ModuleResponse.m */; };
+		1A91F1C90DADBC22D5A62B00 /* RequestMakerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */; };
+		1A91F1E5C30DFF76F69DDD77 /* ModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */; };
+		1A91F232C3814104B668CF42 /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
+		1A91F26EA288FC7A1E2097BF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
+		1A91F332B34990C84572705B /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */; };
+		1A91F3A6CBAEA706CB1054E5 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1121EF987B8E25BB6ED /* MallViewController.m */; };
+		1A91F44948694599909E4AED /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F07B8093393F847A66E2 /* IMViewController.m */; };
+		1A91F474A64EAC2CED1CB69B /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
+		1A91F481ACE7BF4A3364253D /* ResponsePipeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */; };
+		1A91F4A7959DF6E72FE55A63 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
+		1A91F4BDEB51BD469C5AFA02 /* IMModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */; };
+		1A91F51A81B1592BE4CC07B6 /* WorkerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3B4AE1E0BCFB0C8228A /* WorkerImp.m */; };
+		1A91F5232D9BEA016C7ACB48 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1121EF987B8E25BB6ED /* MallViewController.m */; };
+		1A91F561BB1B319D5FA2BA44 /* ModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */; };
+		1A91F5B94532CB7C4241ABC1 /* ApplicationStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */; };
+		1A91F5C24B4DD58D1C458CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F58C1251BBEBBA3B1B56 /* LaunchScreen.storyboard */; };
+		1A91F629BADD3C4B6A795070 /* TestModuleImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */; };
+		1A91F653B562319E8A68AFB3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
+		1A91F6DB518B2A0051A77992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF8E2AE50D15F2C0E99F /* main.m */; };
+		1A91F727D7B4715ED24A7BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F17EB43E925AE271F6F4 /* Main.storyboard */; };
+		1A91F73ACA0E0289D4270AB8 /* ResponsePipeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */; };
+		1A91F7A66AF2043F6F758968 /* ModuleDefinition+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F0766814081F82908690 /* ModuleDefinition+Internal.m */; };
+		1A91F7ED6D8C89E81E841099 /* IM.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FF3308357AB4A1EEDCC6 /* IM.xib */; };
+		1A91F806FE11D8A713FE6017 /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FCE8351A65493475079C /* Mall.storyboard */; };
+		1A91F80E8BB0B5C97027E4FF /* IMModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */; };
+		1A91F815B12CE88A7D7D5042 /* IM.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FF3308357AB4A1EEDCC6 /* IM.xib */; };
+		1A91F8728A55590EE44E1125 /* RequestMakerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */; };
+		1A91F89FFF07AB2CBC99799C /* ModuleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3415880315C89A48DF6 /* ModuleDefinition.m */; };
+		1A91F8ECCF90F93B29B0A8EB /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
+		1A91F8F3A49FF761117BD47D /* RequestMakerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */; };
+		1A91F9272767BC15EC8B2B49 /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
+		1A91F9408C15868067281E75 /* IMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F6409DDFF173102541E7 /* IMApplicationDelegate.m */; };
+		1A91F9504480828A762EA9FD /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FCE8351A65493475079C /* Mall.storyboard */; };
+		1A91F952F90764F798A3DE93 /* TestModuleImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */; };
+		1A91FA35ACB7F0E88E5F6617 /* AppModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FBD5A25680E05FB515AA /* AppModuleExport.m */; };
+		1A91FABBD723E66870953101 /* ResponsePipeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */; };
+		1A91FADD22FD825A2BAD07A4 /* ApplicationStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */; };
+		1A91FB2B52F8124AF357E162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F650259D9283103D5842 /* Assets.xcassets */; };
+		1A91FB940C7C953413E3DD0A /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
+		1A91FC697C7935AD10D88674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF279AA9551C27B9D955 /* AppDelegate.m */; };
+		1A91FD121AEDA3A13933D8C0 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
+		1A91FD524FF2E6FC6BFF87F8 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
+		1A91FDA3E10B97589E382FAA /* WorkerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3B4AE1E0BCFB0C8228A /* WorkerImp.m */; };
+		1A91FDC1416CCFCDC04097FB /* MethodDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */; };
+		1A91FDE9FD77E139C25BC34F /* ApplicationStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */; };
+		1A91FE3D9CBFB0C3D2618110 /* WorkerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3B4AE1E0BCFB0C8228A /* WorkerImp.m */; };
+		1A91FE4AE94EFE6C79A58A9C /* ModuleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3415880315C89A48DF6 /* ModuleDefinition.m */; };
+		1A91FE8A0031AB7B57FC0812 /* Enhydris.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F0B631A8687B08498CD2 /* Enhydris.podspec.json */; };
+		1A91FEDA3C98B6D7D6FEF804 /* ImMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F431D0DB068CE916E8EF /* ImMain.m */; };
+		1A91FF357A27D7C64327E6D2 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2334D3CF894B5274E47 /* DataSource.m */; };
+		4CB6B36C3F64F9B5E0CB37BF /* Pods_EnhydrizComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */; };
+		ED058FB121EC9EF8002377B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF8E2AE50D15F2C0E99F /* main.m */; };
+		ED058FB221EC9EF8002377B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF279AA9551C27B9D955 /* AppDelegate.m */; };
+		ED058FB721EC9EF8002377B6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71C321E8731C006F60A1 /* LoginViewController.m */; };
+		ED058FB821EC9EF8002377B6 /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */; };
+		ED058FC121EC9EF8002377B6 /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F97CDD798253894B22D5 /* ModuleResponse.m */; };
+		ED058FC421EC9EF8002377B6 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2334D3CF894B5274E47 /* DataSource.m */; };
+		ED058FC621EC9EF8002377B6 /* Pods_EnhydrizComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */; };
+		ED058FC821EC9EF8002377B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F650259D9283103D5842 /* Assets.xcassets */; };
+		ED058FC921EC9EF8002377B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F58C1251BBEBBA3B1B56 /* LaunchScreen.storyboard */; };
+		ED058FCB21EC9EF8002377B6 /* Enhydris.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F0B631A8687B08498CD2 /* Enhydris.podspec.json */; };
+		ED058FCC21EC9EF8002377B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F17EB43E925AE271F6F4 /* Main.storyboard */; };
+		ED058FDB21EDDF52002377B6 /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */; };
+		ED058FE321EDDF52002377B6 /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F97CDD798253894B22D5 /* ModuleResponse.m */; };
+		ED058FE621EDDF52002377B6 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2334D3CF894B5274E47 /* DataSource.m */; };
+		ED058FE721EDDF52002377B6 /* ModuleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3415880315C89A48DF6 /* ModuleDefinition.m */; };
+		ED058FE921EDDF52002377B6 /* Pods_EnhydrizComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */; };
+		ED058FEB21EDDF52002377B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F650259D9283103D5842 /* Assets.xcassets */; };
+		ED058FEC21EDDF52002377B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F58C1251BBEBBA3B1B56 /* LaunchScreen.storyboard */; };
+		ED058FEE21EDDF52002377B6 /* Enhydris.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F0B631A8687B08498CD2 /* Enhydris.podspec.json */; };
+		ED058FEF21EDDF52002377B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F17EB43E925AE271F6F4 /* Main.storyboard */; };
+		ED05900421EDEC59002377B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED05900321EDEC59002377B6 /* Default-568h@2x.png */; };
+		ED05900521EDF195002377B6 /* MethodDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */; };
+		ED05900621EDF19A002377B6 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
+		ED05900B21EF2392002377B6 /* MainIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED05900A21EF2392002377B6 /* MainIMViewController.m */; };
+		ED5E71BC21E8718C006F60A1 /* Test0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71BB21E8718C006F60A1 /* Test0ViewController.m */; };
+		ED5E71BF21E8719E006F60A1 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71BE21E8719E006F60A1 /* Test1ViewController.m */; };
+		ED5E71C421E8731C006F60A1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71C321E8731C006F60A1 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A91F01783F8D2090028A764 /* LanguageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageType.h; sourceTree = "<group>"; };
+		1A91F03E43A4F80C4947B061 /* ParamDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamDefinition.h; sourceTree = "<group>"; };
+		1A91F072F316BCFA72FDFFBD /* ServiceExportType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceExportType.h; sourceTree = "<group>"; };
+		1A91F0765B0B8D5ED28A2238 /* UserType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserType.h; sourceTree = "<group>"; };
+		1A91F0766814081F82908690 /* ModuleDefinition+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Internal.m"; sourceTree = "<group>"; };
+		1A91F07B8093393F847A66E2 /* IMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
+		1A91F0B631A8687B08498CD2 /* Enhydris.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Enhydris.podspec.json; sourceTree = "<group>"; };
+		1A91F0CE272B908B28EE8153 /* IMModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMModuleExport.h; sourceTree = "<group>"; };
+		1A91F1121EF987B8E25BB6ED /* MallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallViewController.m; sourceTree = "<group>"; };
+		1A91F16A6D812BF1AA8BF957 /* IMApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMApplicationDelegate.h; sourceTree = "<group>"; };
+		1A91F17EB43E925AE271F6F4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1A91F1818EA2CC5B54AB0AA8 /* RequestMakerImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestMakerImp.h; sourceTree = "<group>"; };
+		1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestMakerImp.m; sourceTree = "<group>"; };
+		1A91F2334D3CF894B5274E47 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		1A91F25CC240279C6AE7F641 /* IMModuleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMModuleType.h; sourceTree = "<group>"; };
+		1A91F25F3A92981000E6BBA8 /* ResponsePipeImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsePipeImp.h; sourceTree = "<group>"; };
+		1A91F33E843D797281D8EFB4 /* MallModuleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallModuleType.h; sourceTree = "<group>"; };
+		1A91F3415880315C89A48DF6 /* ModuleDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleDefinition.m; sourceTree = "<group>"; };
+		1A91F35971F21F7EBDE14F24 /* TestModuleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModuleType.h; sourceTree = "<group>"; };
+		1A91F3A5984EC2A899F6DE91 /* IMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
+		1A91F3B4AE1E0BCFB0C8228A /* WorkerImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkerImp.m; sourceTree = "<group>"; };
+		1A91F402A08B689B9171E50E /* MotorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorType.h; sourceTree = "<group>"; };
+		1A91F40DFFB5B822EE2C42C8 /* Mall.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Mall.plist; sourceTree = "<group>"; };
+		1A91F431D0DB068CE916E8EF /* ImMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImMain.m; sourceTree = "<group>"; };
+		1A91F488AD26474874427BB9 /* ModuleExportType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExportType.h; sourceTree = "<group>"; };
+		1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModuleImp.m; sourceTree = "<group>"; };
+		1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMModuleExport.m; sourceTree = "<group>"; };
+		1A91F5B87B46DDFAF6995A88 /* ApplicationStackImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationStackImp.h; sourceTree = "<group>"; };
+		1A91F6409DDFF173102541E7 /* IMApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMApplicationDelegate.m; sourceTree = "<group>"; };
+		1A91F650259D9283103D5842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A91F690939F2F9E29858A48 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A91F694AAAFEDE98C9F95E9 /* ApplicationStackImp+Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ApplicationStackImp+Demo.h"; sourceTree = "<group>"; };
+		1A91F6FC15EDCAECECE5E037 /* IM.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = IM.plist; sourceTree = "<group>"; };
+		1A91F7097F4B82C4404EE79E /* AppModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModuleExport.h; sourceTree = "<group>"; };
+		1A91F73B5F4AE5E476F59523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodDefinition.m; sourceTree = "<group>"; };
+		1A91F7E88435DCA524A546EF /* ApiConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiConfig.m; sourceTree = "<group>"; };
+		1A91F84E6E59CD4CA42285E7 /* ModuleResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleResponse.h; sourceTree = "<group>"; };
+		1A91F8BBD9DF736E30F6FDCB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1A91F92AA80E306850B8BAC6 /* ModuleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleProvider.h; sourceTree = "<group>"; };
+		1A91F97CDD798253894B22D5 /* ModuleResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleResponse.m; sourceTree = "<group>"; };
+		1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsePipeImp.m; sourceTree = "<group>"; };
+		1A91F99B252F542FE3190FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleProvider.m; sourceTree = "<group>"; };
+		1A91F9E14A8EBBF49B33B706 /* MallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallViewController.h; sourceTree = "<group>"; };
+		1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleExport.m; sourceTree = "<group>"; };
+		1A91FA22096C9520E585B127 /* ApiConfigType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConfigType.h; sourceTree = "<group>"; };
+		1A91FB39DF4BB215D9832D24 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		1A91FB44B9FE8C81032212D6 /* ModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExport.h; sourceTree = "<group>"; };
+		1A91FB9A9131C8FF2A17261B /* TestModuleImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModuleImp.h; sourceTree = "<group>"; };
+		1A91FBC41B937EC5796554A1 /* ModuleDefinition+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Internal.h"; sourceTree = "<group>"; };
+		1A91FBD5A25680E05FB515AA /* AppModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModuleExport.m; sourceTree = "<group>"; };
+		1A91FC3E6BF90F7C74240CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A91FC5E93426D8AB1C2BEAB /* WorkerImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkerImp.h; sourceTree = "<group>"; };
+		1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationStackImp.m; sourceTree = "<group>"; };
+		1A91FCE8351A65493475079C /* Mall.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mall.storyboard; sourceTree = "<group>"; };
+		1A91FD093F9A1E97A64F86B3 /* MethodDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodDefinition.h; sourceTree = "<group>"; };
+		1A91FD8307278E7B2572249A /* MallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallModel.h; sourceTree = "<group>"; };
+		1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamDefinition.m; sourceTree = "<group>"; };
+		1A91FD9C7D1FECDDE81A554B /* ApiConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConfig.h; sourceTree = "<group>"; };
+		1A91FDED380F61818B7B2C27 /* MallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallModel.m; sourceTree = "<group>"; };
+		1A91FE2F851E61B02686ED17 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		1A91FE8B0089FBB06EBA5B84 /* ModuleDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleDefinition.h; sourceTree = "<group>"; };
+		1A91FF279AA9551C27B9D955 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A91FF3308357AB4A1EEDCC6 /* IM.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IM.xib; sourceTree = "<group>"; };
+		1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ApplicationStackImp+Demo.m"; sourceTree = "<group>"; };
+		1A91FF8E2AE50D15F2C0E99F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A91FFF1D9D7EEDA354E896D /* ApplicationStackType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationStackType.h; sourceTree = "<group>"; };
+		46D874B5037EC4D3585636F1 /* Pods-EnhydrizComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnhydrizComponents.debug.xcconfig"; path = "Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnhydrizComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5EEB6F4C4759B72D97839CB /* Pods-EnhydrizComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnhydrizComponents.release.xcconfig"; path = "Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents.release.xcconfig"; sourceTree = "<group>"; };
+		ED058FD121EC9EF8002377B6 /* Mall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED058FF421EDDF52002377B6 /* IM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED05900321EDEC59002377B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ED05900921EF2392002377B6 /* MainIMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainIMViewController.h; sourceTree = "<group>"; };
+		ED05900A21EF2392002377B6 /* MainIMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainIMViewController.m; sourceTree = "<group>"; };
+		ED5E71BA21E8718C006F60A1 /* Test0ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test0ViewController.h; sourceTree = "<group>"; };
+		ED5E71BB21E8718C006F60A1 /* Test0ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test0ViewController.m; sourceTree = "<group>"; };
+		ED5E71BD21E8719E006F60A1 /* Test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		ED5E71BE21E8719E006F60A1 /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		ED5E71C221E8731C006F60A1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		ED5E71C321E8731C006F60A1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A91F82670D85153C7C6EB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB6B36C3F64F9B5E0CB37BF /* Pods_EnhydrizComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED058FC521EC9EF8002377B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED058FC621EC9EF8002377B6 /* Pods_EnhydrizComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED058FE821EDDF52002377B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED058FE921EDDF52002377B6 /* Pods_EnhydrizComponents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A91F0249A0841C3219E6293 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F488AD26474874427BB9 /* ModuleExportType.h */,
+				1A91F072F316BCFA72FDFFBD /* ServiceExportType.h */,
+				1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */,
+				1A91F92AA80E306850B8BAC6 /* ModuleProvider.h */,
+				1A91F97CDD798253894B22D5 /* ModuleResponse.m */,
+				1A91F84E6E59CD4CA42285E7 /* ModuleResponse.h */,
+				1A91FC10B4A30CFC41652D2C /* Internal */,
+				1A91F7983760491DC145BB5E /* Definition */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A91F09536506CE7081FFBFD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F0765B0B8D5ED28A2238 /* UserType.h */,
+				1A91FA22096C9520E585B127 /* ApiConfigType.h */,
+				1A91FFF1D9D7EEDA354E896D /* ApplicationStackType.h */,
+				1A91F01783F8D2090028A764 /* LanguageType.h */,
+				1A91F402A08B689B9171E50E /* MotorType.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1A91F0C2D29B852EE730DA0E /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F0B631A8687B08498CD2 /* Enhydris.podspec.json */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		1A91F15410EE483DD21DD361 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F17EB43E925AE271F6F4 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1A91F154739736270624DB74 /* Imp */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F5B87B46DDFAF6995A88 /* ApplicationStackImp.h */,
+				1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */,
+				1A91F3B4AE1E0BCFB0C8228A /* WorkerImp.m */,
+				1A91FC5E93426D8AB1C2BEAB /* WorkerImp.h */,
+				1A91FE2F851E61B02686ED17 /* User.m */,
+				1A91F8BBD9DF736E30F6FDCB /* User.h */,
+				1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */,
+				1A91F694AAAFEDE98C9F95E9 /* ApplicationStackImp+Demo.h */,
+				1A91FF1FB0EB9906195F4464 /* Client */,
+			);
+			path = Imp;
+			sourceTree = "<group>";
+		};
+		1A91F2050B106D36D0EF4140 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F775872EFB3CF1741A3A /* Protocol */,
+				1A91FEFB4E17A256E20F25D4 /* App */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		1A91F226A695C2C91AD0CD28 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1A91FFBBF2ABA45F686BBF17 /* Protocol */,
+				1A91F2E6A1AA738364C9638B /* Imp */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		1A91F2E6A1AA738364C9638B /* Imp */ = {
+			isa = PBXGroup;
+			children = (
+				1A91FB44B9FE8C81032212D6 /* ModuleExport.h */,
+				1A91FB9A9131C8FF2A17261B /* TestModuleImp.h */,
+				1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */,
+				1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */,
+				1A91FCE8351A65493475079C /* Mall.storyboard */,
+			);
+			path = Imp;
+			sourceTree = "<group>";
+		};
+		1A91F39E41B2456036F127D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F690939F2F9E29858A48 /* App.app */,
+				ED058FD121EC9EF8002377B6 /* Mall.app */,
+				ED058FF421EDDF52002377B6 /* IM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A91F5179329EBA6157DC6A8 /* Mall */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F40DFFB5B822EE2C42C8 /* Mall.plist */,
+				1A91F1121EF987B8E25BB6ED /* MallViewController.m */,
+				1A91F9E14A8EBBF49B33B706 /* MallViewController.h */,
+			);
+			path = Mall;
+			sourceTree = "<group>";
+		};
+		1A91F522B646D4917982407A /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F2334D3CF894B5274E47 /* DataSource.m */,
+				1A91FB39DF4BB215D9832D24 /* DataSource.h */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		1A91F6B8F181B9BD937926ED /* EnhydrizComponents */ = {
+			isa = PBXGroup;
+			children = (
+				ED058FF621EDDF74002377B6 /* App */,
+				1A91F99B252F542FE3190FF8 /* Info.plist */,
+				1A91F650259D9283103D5842 /* Assets.xcassets */,
+				1A91F58C1251BBEBBA3B1B56 /* LaunchScreen.storyboard */,
+				1A91FF8E2AE50D15F2C0E99F /* main.m */,
+				1A91FC3E6BF90F7C74240CAD /* AppDelegate.h */,
+				1A91FF279AA9551C27B9D955 /* AppDelegate.m */,
+				1A91FC5157126958E3B4B208 /* Library */,
+				1A91FE52F551F79EFA4B3EE8 /* Modules */,
+			);
+			path = EnhydrizComponents;
+			sourceTree = "<group>";
+		};
+		1A91F775872EFB3CF1741A3A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F25CC240279C6AE7F641 /* IMModuleType.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1A91F7983760491DC145BB5E /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F3415880315C89A48DF6 /* ModuleDefinition.m */,
+				1A91FE8B0089FBB06EBA5B84 /* ModuleDefinition.h */,
+				1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */,
+				1A91F03E43A4F80C4947B061 /* ParamDefinition.h */,
+				1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */,
+				1A91FD093F9A1E97A64F86B3 /* MethodDefinition.h */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		1A91FC10B4A30CFC41652D2C /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F0766814081F82908690 /* ModuleDefinition+Internal.m */,
+				1A91FBC41B937EC5796554A1 /* ModuleDefinition+Internal.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		1A91FC5157126958E3B4B208 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F0249A0841C3219E6293 /* Core */,
+				1A91F09536506CE7081FFBFD /* Application */,
+				1A91F522B646D4917982407A /* DataSource */,
+				1A91F154739736270624DB74 /* Imp */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		1A91FCF91998775606956053 = {
+			isa = PBXGroup;
+			children = (
+				ED05900321EDEC59002377B6 /* Default-568h@2x.png */,
+				1A91F39E41B2456036F127D0 /* Products */,
+				1A91F6B8F181B9BD937926ED /* EnhydrizComponents */,
+				821FA77A5DAE8703F1B16FFC /* Pods */,
+				1A91F0C2D29B852EE730DA0E /* Specs */,
+				F6D4581239EE295AEA016FBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A91FE52F551F79EFA4B3EE8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F226A695C2C91AD0CD28 /* Test */,
+				1A91F2050B106D36D0EF4140 /* IM */,
+				1A91F5179329EBA6157DC6A8 /* Mall */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1A91FEFB4E17A256E20F25D4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F431D0DB068CE916E8EF /* ImMain.m */,
+				1A91F07B8093393F847A66E2 /* IMViewController.m */,
+				1A91F3A5984EC2A899F6DE91 /* IMViewController.h */,
+				1A91F6FC15EDCAECECE5E037 /* IM.plist */,
+				1A91F6409DDFF173102541E7 /* IMApplicationDelegate.m */,
+				1A91F16A6D812BF1AA8BF957 /* IMApplicationDelegate.h */,
+				1A91FF3308357AB4A1EEDCC6 /* IM.xib */,
+				1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */,
+				1A91F0CE272B908B28EE8153 /* IMModuleExport.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1A91FF1FB0EB9906195F4464 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */,
+				1A91F1818EA2CC5B54AB0AA8 /* RequestMakerImp.h */,
+				1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */,
+				1A91F25F3A92981000E6BBA8 /* ResponsePipeImp.h */,
+				1A91FD9C7D1FECDDE81A554B /* ApiConfig.h */,
+				1A91F7E88435DCA524A546EF /* ApiConfig.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		1A91FFBBF2ABA45F686BBF17 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F35971F21F7EBDE14F24 /* TestModuleType.h */,
+				1A91F33E843D797281D8EFB4 /* MallModuleType.h */,
+				1A91FDED380F61818B7B2C27 /* MallModel.m */,
+				1A91FD8307278E7B2572249A /* MallModel.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		821FA77A5DAE8703F1B16FFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46D874B5037EC4D3585636F1 /* Pods-EnhydrizComponents.debug.xcconfig */,
+				E5EEB6F4C4759B72D97839CB /* Pods-EnhydrizComponents.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED058FF621EDDF74002377B6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E71C021E872EA006F60A1 /* Views */,
+				1A91FBD5A25680E05FB515AA /* AppModuleExport.m */,
+				1A91F7097F4B82C4404EE79E /* AppModuleExport.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ED5E71C021E872EA006F60A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E71C121E87301006F60A1 /* Controllers */,
+				1A91F15410EE483DD21DD361 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED5E71C121E87301006F60A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E71BA21E8718C006F60A1 /* Test0ViewController.h */,
+				ED5E71BB21E8718C006F60A1 /* Test0ViewController.m */,
+				ED5E71BD21E8719E006F60A1 /* Test1ViewController.h */,
+				ED5E71BE21E8719E006F60A1 /* Test1ViewController.m */,
+				ED5E71C221E8731C006F60A1 /* LoginViewController.h */,
+				ED5E71C321E8731C006F60A1 /* LoginViewController.m */,
+				ED05900921EF2392002377B6 /* MainIMViewController.h */,
+				ED05900A21EF2392002377B6 /* MainIMViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F6D4581239EE295AEA016FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A91F270BBFA281C2AA6402C /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A91FEDB5CFFA251FC341D80 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				B7FB44787C35D74B6D828DAA /* [CP] Check Pods Manifest.lock */,
+				1A91F4C858E6AD5253C82FB0 /* Sources */,
+				1A91F82670D85153C7C6EB22 /* Frameworks */,
+				1A91FCF322271ED31A757F96 /* Resources */,
+				6AB3093F4A976DC0731AC978 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = App;
+			productName = EnhydrizComponents;
+			productReference = 1A91F690939F2F9E29858A48 /* App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED058FAE21EC9EF8002377B6 /* Mall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED058FCE21EC9EF8002377B6 /* Build configuration list for PBXNativeTarget "Mall" */;
+			buildPhases = (
+				ED058FAF21EC9EF8002377B6 /* [CP] Check Pods Manifest.lock */,
+				ED058FB021EC9EF8002377B6 /* Sources */,
+				ED058FC521EC9EF8002377B6 /* Frameworks */,
+				ED058FC721EC9EF8002377B6 /* Resources */,
+				ED058FCD21EC9EF8002377B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mall;
+			productName = EnhydrizComponents;
+			productReference = ED058FD121EC9EF8002377B6 /* Mall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED058FD321EDDF52002377B6 /* IM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED058FF121EDDF52002377B6 /* Build configuration list for PBXNativeTarget "IM" */;
+			buildPhases = (
+				ED058FD421EDDF52002377B6 /* [CP] Check Pods Manifest.lock */,
+				ED058FD521EDDF52002377B6 /* Sources */,
+				ED058FE821EDDF52002377B6 /* Frameworks */,
+				ED058FEA21EDDF52002377B6 /* Resources */,
+				ED058FF021EDDF52002377B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IM;
+			productName = EnhydrizComponents;
+			productReference = ED058FF421EDDF52002377B6 /* IM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A91FFDB1F1B3E6316511FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Yamazhiki;
+				TargetAttributes = {
+					1A91F270BBFA281C2AA6402C = {
+						DevelopmentTeam = 4R47MJ4W53;
+					};
+					ED058FAE21EC9EF8002377B6 = {
+						DevelopmentTeam = 4R47MJ4W53;
+					};
+					ED058FD321EDDF52002377B6 = {
+						DevelopmentTeam = 4R47MJ4W53;
+					};
+				};
+			};
+			buildConfigurationList = 1A91FA0A4BCF9EB2659124CE /* Build configuration list for PBXProject "EnhydrizComponents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A91FCF91998775606956053;
+			productRefGroup = 1A91F39E41B2456036F127D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A91F270BBFA281C2AA6402C /* App */,
+				ED058FAE21EC9EF8002377B6 /* Mall */,
+				ED058FD321EDDF52002377B6 /* IM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A91FCF322271ED31A757F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A91FB2B52F8124AF357E162 /* Assets.xcassets in Resources */,
+				1A91F5C24B4DD58D1C458CF1 /* LaunchScreen.storyboard in Resources */,
+				1A91FE8A0031AB7B57FC0812 /* Enhydris.podspec.json in Resources */,
+				1A91F727D7B4715ED24A7BDF /* Main.storyboard in Resources */,
+				1A91F806FE11D8A713FE6017 /* Mall.storyboard in Resources */,
+				1A91F7ED6D8C89E81E841099 /* IM.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED058FC721EC9EF8002377B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED058FC821EC9EF8002377B6 /* Assets.xcassets in Resources */,
+				ED058FC921EC9EF8002377B6 /* LaunchScreen.storyboard in Resources */,
+				ED058FCB21EC9EF8002377B6 /* Enhydris.podspec.json in Resources */,
+				ED058FCC21EC9EF8002377B6 /* Main.storyboard in Resources */,
+				1A91F006E7F76BA09D6D17FE /* Mall.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED058FEA21EDDF52002377B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED058FEB21EDDF52002377B6 /* Assets.xcassets in Resources */,
+				ED058FEC21EDDF52002377B6 /* LaunchScreen.storyboard in Resources */,
+				ED058FEE21EDDF52002377B6 /* Enhydris.podspec.json in Resources */,
+				ED058FEF21EDDF52002377B6 /* Main.storyboard in Resources */,
+				ED05900421EDEC59002377B6 /* Default-568h@2x.png in Resources */,
+				1A91F9504480828A762EA9FD /* Mall.storyboard in Resources */,
+				1A91F815B12CE88A7D7D5042 /* IM.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AB3093F4A976DC0731AC978 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Enhydris/Enhydris.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Enhydris.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7FB44787C35D74B6D828DAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnhydrizComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED058FAF21EC9EF8002377B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnhydrizComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED058FCD21EC9EF8002377B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Enhydris/Enhydris.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Enhydris.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED058FD421EDDF52002377B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnhydrizComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED058FF021EDDF52002377B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Enhydris/Enhydris.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Enhydris.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A91F4C858E6AD5253C82FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A91F6DB518B2A0051A77992 /* main.m in Sources */,
+				1A91FC697C7935AD10D88674 /* AppDelegate.m in Sources */,
+				ED5E71BF21E8719E006F60A1 /* Test1ViewController.m in Sources */,
+				ED5E71BC21E8718C006F60A1 /* Test0ViewController.m in Sources */,
+				ED5E71C421E8731C006F60A1 /* LoginViewController.m in Sources */,
+				1A91F332B34990C84572705B /* ModuleProvider.m in Sources */,
+				ED05900B21EF2392002377B6 /* MainIMViewController.m in Sources */,
+				1A91F15A0E434D1934C432FD /* ModuleResponse.m in Sources */,
+				1A91FF357A27D7C64327E6D2 /* DataSource.m in Sources */,
+				1A91F7A66AF2043F6F758968 /* ModuleDefinition+Internal.m in Sources */,
+				1A91FE4AE94EFE6C79A58A9C /* ModuleDefinition.m in Sources */,
+				1A91FD121AEDA3A13933D8C0 /* ParamDefinition.m in Sources */,
+				1A91FDC1416CCFCDC04097FB /* MethodDefinition.m in Sources */,
+				1A91FADD22FD825A2BAD07A4 /* ApplicationStackImp.m in Sources */,
+				1A91FDA3E10B97589E382FAA /* WorkerImp.m in Sources */,
+				1A91F4A7959DF6E72FE55A63 /* User.m in Sources */,
+				1A91F13ACBDA4C2494E79FC8 /* ApplicationStackImp+Demo.m in Sources */,
+				1A91F8F3A49FF761117BD47D /* RequestMakerImp.m in Sources */,
+				1A91F481ACE7BF4A3364253D /* ResponsePipeImp.m in Sources */,
+				1A91FB940C7C953413E3DD0A /* ApiConfig.m in Sources */,
+				1A91FA35ACB7F0E88E5F6617 /* AppModuleExport.m in Sources */,
+				1A91F474A64EAC2CED1CB69B /* MallModel.m in Sources */,
+				1A91F629BADD3C4B6A795070 /* TestModuleImp.m in Sources */,
+				1A91F1E5C30DFF76F69DDD77 /* ModuleExport.m in Sources */,
+				1A91F44948694599909E4AED /* IMViewController.m in Sources */,
+				1A91F80E8BB0B5C97027E4FF /* IMModuleExport.m in Sources */,
+				1A91F3A6CBAEA706CB1054E5 /* MallViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED058FB021EC9EF8002377B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED058FB121EC9EF8002377B6 /* main.m in Sources */,
+				ED058FB221EC9EF8002377B6 /* AppDelegate.m in Sources */,
+				ED05900521EDF195002377B6 /* MethodDefinition.m in Sources */,
+				ED058FB721EC9EF8002377B6 /* LoginViewController.m in Sources */,
+				ED058FB821EC9EF8002377B6 /* ModuleProvider.m in Sources */,
+				ED058FC121EC9EF8002377B6 /* ModuleResponse.m in Sources */,
+				ED058FC421EC9EF8002377B6 /* DataSource.m in Sources */,
+				1A91F89FFF07AB2CBC99799C /* ModuleDefinition.m in Sources */,
+				1A91F5B94532CB7C4241ABC1 /* ApplicationStackImp.m in Sources */,
+				1A91FE3D9CBFB0C3D2618110 /* WorkerImp.m in Sources */,
+				1A91F26EA288FC7A1E2097BF /* User.m in Sources */,
+				1A91FD524FF2E6FC6BFF87F8 /* ApplicationStackImp+Demo.m in Sources */,
+				1A91F8728A55590EE44E1125 /* RequestMakerImp.m in Sources */,
+				1A91FABBD723E66870953101 /* ResponsePipeImp.m in Sources */,
+				ED05900621EDF19A002377B6 /* ParamDefinition.m in Sources */,
+				1A91F232C3814104B668CF42 /* ApiConfig.m in Sources */,
+				1A91F138F0489D160206B595 /* MallModel.m in Sources */,
+				1A91F952F90764F798A3DE93 /* TestModuleImp.m in Sources */,
+				1A91F561BB1B319D5FA2BA44 /* ModuleExport.m in Sources */,
+				1A91F5232D9BEA016C7ACB48 /* MallViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED058FD521EDDF52002377B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED058FDB21EDDF52002377B6 /* ModuleProvider.m in Sources */,
+				ED058FE321EDDF52002377B6 /* ModuleResponse.m in Sources */,
+				ED058FE621EDDF52002377B6 /* DataSource.m in Sources */,
+				ED058FE721EDDF52002377B6 /* ModuleDefinition.m in Sources */,
+				1A91FDE9FD77E139C25BC34F /* ApplicationStackImp.m in Sources */,
+				1A91F51A81B1592BE4CC07B6 /* WorkerImp.m in Sources */,
+				1A91F653B562319E8A68AFB3 /* User.m in Sources */,
+				1A91F0AEB0C82290B79B7DB7 /* ApplicationStackImp+Demo.m in Sources */,
+				1A91F1C90DADBC22D5A62B00 /* RequestMakerImp.m in Sources */,
+				1A91F73ACA0E0289D4270AB8 /* ResponsePipeImp.m in Sources */,
+				1A91F9272767BC15EC8B2B49 /* ApiConfig.m in Sources */,
+				1A91F8ECCF90F93B29B0A8EB /* MallModel.m in Sources */,
+				1A91FEDA3C98B6D7D6FEF804 /* ImMain.m in Sources */,
+				1A91F0DE3F3BA84E3721EB61 /* IMViewController.m in Sources */,
+				1A91F9408C15868067281E75 /* IMApplicationDelegate.m in Sources */,
+				1A91F4BDEB51BD469C5AFA02 /* IMModuleExport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A91F58C1251BBEBBA3B1B56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A91F73B5F4AE5E476F59523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A91F4360A006701BA4606FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D874B5037EC4D3585636F1 /* Pods-EnhydrizComponents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R47MJ4W53;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = EnhydrizComponents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa.EnhydrizComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A91F6B14EFFFC47BFE41A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A91FCA29189790A916E2601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A91FF68C331D56FF3315BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EEB6F4C4759B72D97839CB /* Pods-EnhydrizComponents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R47MJ4W53;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = EnhydrizComponents/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa.EnhydrizComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED058FCF21EC9EF8002377B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D874B5037EC4D3585636F1 /* Pods-EnhydrizComponents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R47MJ4W53;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/EnhydrizComponents/Modules/Mall/Mall.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa.EnhydrizComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED058FD021EC9EF8002377B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EEB6F4C4759B72D97839CB /* Pods-EnhydrizComponents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R47MJ4W53;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/EnhydrizComponents/Modules/Mall/Mall.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa.EnhydrizComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED058FF221EDDF52002377B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D874B5037EC4D3585636F1 /* Pods-EnhydrizComponents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R47MJ4W53;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/IM.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa.EnhydrizComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED058FF321EDDF52002377B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EEB6F4C4759B72D97839CB /* Pods-EnhydrizComponents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R47MJ4W53;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/IM.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa.EnhydrizComponents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A91FA0A4BCF9EB2659124CE /* Build configuration list for PBXProject "EnhydrizComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A91FCA29189790A916E2601 /* Debug */,
+				1A91F6B14EFFFC47BFE41A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A91FEDB5CFFA251FC341D80 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A91F4360A006701BA4606FF /* Debug */,
+				1A91FF68C331D56FF3315BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED058FCE21EC9EF8002377B6 /* Build configuration list for PBXNativeTarget "Mall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED058FCF21EC9EF8002377B6 /* Debug */,
+				ED058FD021EC9EF8002377B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED058FF121EDDF52002377B6 /* Build configuration list for PBXNativeTarget "IM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED058FF221EDDF52002377B6 /* Debug */,
+				ED058FF321EDDF52002377B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A91FFDB1F1B3E6316511FE9 /* Project object */;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Enhydris",
+  "version": "0.1.1",
+  "summary": "Custom component class.",
+  "description": "Custom component class.",
+  "homepage": "https://github.com/zhusiming",
+  "license": "MIT",
+  "authors": {
+    "Yamazhiki": "Yamazhiki@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/Yamazhiki/Enhydris.git",
+    "tag": "0.1.1"
+  },
+  "subspecs": [
+    {
+      "name": "Enhydris",
+      "source_files": [
+        "Enhydris/Classes/*.{h,m}"
+      ]
+    }
+  ]
+}
