@@ -10,6 +10,7 @@
 
 static NSMutableDictionary<NSString *, ModuleDefinition * > *instancePlaceholder;
 static NSMutableDictionary<NSString *, NSObject *> *container;
+static NSMapTable<NSString *, NSObject *> *weakRef;
 
 
 @implementation ModuleProvider {
@@ -19,6 +20,10 @@ static NSMutableDictionary<NSString *, NSObject *> *container;
 + (void)load {
     instancePlaceholder = [NSMutableDictionary new];
     container = [NSMutableDictionary new];
+    weakRef = [[NSMapTable alloc] initWithKeyOptions:NSPointerFunctionsStrongMemory
+                                        valueOptions:NSPointerFunctionsWeakMemory
+                                            capacity:0];
+    [self setUp];
 }
 
 + (void)setUp {
@@ -43,24 +48,35 @@ static NSMutableDictionary<NSString *, NSObject *> *container;
 
 + (id)request:(Protocol *)aProtocol params:(id)args, ... {
     NSString *key = NSStringFromProtocol(aProtocol);
-    ModuleDefinition *definition = instancePlaceholder[key];
-    if (definition) {
-        switch (definition.scope) {
-            case ModuleScopeObjectGraph:
-                return [definition createInstance:args];
-            case ModuleScopeSingleton: {
-                id rlt = container[key];
-                if (!rlt) {
-                    rlt = [definition createInstance:args];
-                    container[key] = rlt;
+    id result = nil;
+    @synchronized (self) {
+        ModuleDefinition *definition = instancePlaceholder[key];
+        if (definition) {
+            switch (definition.scope) {
+                case ModuleScopeObjectGraph:
+                    return [definition createInstance:args];
+                case ModuleScopeSingleton: {
+                    result = container[key];
+                    if (!result) {
+                        result = [definition createInstance:args];
+                        container[key] = result;
+                    }
+                    break;
                 }
-                return rlt;
+                case ModuleScopeWeakSingleton: {
+                    result = [weakRef objectForKey:key];
+                    if (!result) {
+                        result = [definition createInstance:args];
+                        [weakRef setObject:result forKey:key];
+                    }
+                    break;
+                }
+                default:
+                    break;
             }
-            default:
-                return nil;
         }
     }
-    return nil;
+    return result;
 }
 
 

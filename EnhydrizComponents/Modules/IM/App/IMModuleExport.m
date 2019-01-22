@@ -11,13 +11,13 @@
 
 
 @implementation IMModuleExport {
-
 }
 
 + (NSArray<ModuleDefinition *> *)services {
     return @[
             [ModuleDefinition definitionWithProtocol:@protocol(IMModuleType)
                                          targetClass:[IMViewController class] configuration:^(ModuleDefinition *definition) {
+                        definition.scope = ModuleScopeWeakSingleton;
                         [definition defineConstructorMethod:[MethodDefinition classMethod:@selector(initWithUser:)]];
                     }]
     ];

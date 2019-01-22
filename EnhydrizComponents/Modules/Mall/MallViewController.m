@@ -11,7 +11,6 @@
 @property(nonatomic) NSArray<Product *> *products;
 @property(nonatomic) NSInteger categoryId;
 
-
 /*For module type*/
 @property(nonatomic) RACSubject<Product *> *selectProductSubject;
 @end

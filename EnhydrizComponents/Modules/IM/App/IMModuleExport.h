@@ -7,5 +7,5 @@
 #import "ModuleExportType.h"
 
 
-@interface IMModuleExport : NSObject<ModuleExportType>
+@interface IMModuleExport : NSObject <ModuleExportType>
 @end

@@ -45,8 +45,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    id app = [ModuleProvider request:@protocol(ApplicationStackType)];
-    NSLog(@"---->%@", app);
     [self bindViewModel];
     // Do any additional setup after loading the view.
 }
@@ -69,7 +67,7 @@
 - (IBAction)loadModule:(id)sender {
     @weakify(self)
 /*这我们加载TestModule*/
-    self.remoteModule = [ModuleProvider request:@protocol(TestModuleType) params:@"Hello"];
+    self.remoteModule = [ModuleProvider request:@protocol(TestModuleType) params:self.remoteModule];
     [self bindNewViewModel];
 
     UIViewController <MallModuleType> *viewController = [ModuleProvider request:@protocol(MallModuleType) params:@1];

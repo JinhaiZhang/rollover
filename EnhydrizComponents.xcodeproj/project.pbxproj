@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		1A91F006E7F76BA09D6D17FE /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FCE8351A65493475079C /* Mall.storyboard */; };
+		1A91F05A6046EB113B65592F /* ModuleConfigurationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F436304E05571939DF9D /* ModuleConfigurationProcessor.m */; };
 		1A91F0AEB0C82290B79B7DB7 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
+		1A91F0B25C83168775555F41 /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */; };
 		1A91F0DE3F3BA84E3721EB61 /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F07B8093393F847A66E2 /* IMViewController.m */; };
 		1A91F138F0489D160206B595 /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
 		1A91F13ACBDA4C2494E79FC8 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
-		1A91F15A0E434D1934C432FD /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F97CDD798253894B22D5 /* ModuleResponse.m */; };
 		1A91F1C90DADBC22D5A62B00 /* RequestMakerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */; };
 		1A91F1E5C30DFF76F69DDD77 /* ModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */; };
 		1A91F232C3814104B668CF42 /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
 		1A91F26EA288FC7A1E2097BF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
+		1A91F2B8730A3D6B2B9FD829 /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7752EA7982FA465BF86 /* ModuleConfig.m */; };
 		1A91F332B34990C84572705B /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */; };
+		1A91F364086E4B3934C3439A /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */; };
 		1A91F3A6CBAEA706CB1054E5 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1121EF987B8E25BB6ED /* MallViewController.m */; };
 		1A91F44948694599909E4AED /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F07B8093393F847A66E2 /* IMViewController.m */; };
 		1A91F474A64EAC2CED1CB69B /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
@@ -26,19 +29,22 @@
 		1A91F4BDEB51BD469C5AFA02 /* IMModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */; };
 		1A91F51A81B1592BE4CC07B6 /* WorkerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3B4AE1E0BCFB0C8228A /* WorkerImp.m */; };
 		1A91F5232D9BEA016C7ACB48 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1121EF987B8E25BB6ED /* MallViewController.m */; };
+		1A91F52B14E6A1E905E80388 /* ModuleDefinition+Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */; };
 		1A91F561BB1B319D5FA2BA44 /* ModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */; };
 		1A91F5B94532CB7C4241ABC1 /* ApplicationStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */; };
 		1A91F5C24B4DD58D1C458CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F58C1251BBEBBA3B1B56 /* LaunchScreen.storyboard */; };
 		1A91F629BADD3C4B6A795070 /* TestModuleImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */; };
 		1A91F653B562319E8A68AFB3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
 		1A91F6DB518B2A0051A77992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF8E2AE50D15F2C0E99F /* main.m */; };
+		1A91F6EEC0C8D8BDE4EC94D0 /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7752EA7982FA465BF86 /* ModuleConfig.m */; };
 		1A91F727D7B4715ED24A7BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F17EB43E925AE271F6F4 /* Main.storyboard */; };
+		1A91F7360D7A5101DFFB4873 /* ModuleConfigurationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F436304E05571939DF9D /* ModuleConfigurationProcessor.m */; };
 		1A91F73ACA0E0289D4270AB8 /* ResponsePipeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */; };
-		1A91F7A66AF2043F6F758968 /* ModuleDefinition+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F0766814081F82908690 /* ModuleDefinition+Internal.m */; };
 		1A91F7ED6D8C89E81E841099 /* IM.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FF3308357AB4A1EEDCC6 /* IM.xib */; };
 		1A91F806FE11D8A713FE6017 /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FCE8351A65493475079C /* Mall.storyboard */; };
 		1A91F80E8BB0B5C97027E4FF /* IMModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */; };
 		1A91F815B12CE88A7D7D5042 /* IM.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FF3308357AB4A1EEDCC6 /* IM.xib */; };
+		1A91F860DEC94AC3CCA93020 /* ModuleConfigurationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F436304E05571939DF9D /* ModuleConfigurationProcessor.m */; };
 		1A91F8728A55590EE44E1125 /* RequestMakerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */; };
 		1A91F89FFF07AB2CBC99799C /* ModuleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3415880315C89A48DF6 /* ModuleDefinition.m */; };
 		1A91F8ECCF90F93B29B0A8EB /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
@@ -47,12 +53,18 @@
 		1A91F9408C15868067281E75 /* IMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F6409DDFF173102541E7 /* IMApplicationDelegate.m */; };
 		1A91F9504480828A762EA9FD /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FCE8351A65493475079C /* Mall.storyboard */; };
 		1A91F952F90764F798A3DE93 /* TestModuleImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */; };
+		1A91F95B2E3FC93DAFC9BD9E /* UINavigationController+ModuleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */; };
+		1A91F9D1C3589A01DCB37CED /* UINavigationController+ModuleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */; };
+		1A91FA2A49ADE300F1886583 /* ModuleDefinition+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF6857AC4A87F8354F57 /* ModuleDefinition+Internal.m */; };
 		1A91FA35ACB7F0E88E5F6617 /* AppModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FBD5A25680E05FB515AA /* AppModuleExport.m */; };
 		1A91FABBD723E66870953101 /* ResponsePipeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */; };
 		1A91FADD22FD825A2BAD07A4 /* ApplicationStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */; };
 		1A91FB2B52F8124AF357E162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F650259D9283103D5842 /* Assets.xcassets */; };
+		1A91FB898EE14A5682253B81 /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7752EA7982FA465BF86 /* ModuleConfig.m */; };
 		1A91FB940C7C953413E3DD0A /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
+		1A91FC056635CA692EC4EE97 /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */; };
 		1A91FC697C7935AD10D88674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF279AA9551C27B9D955 /* AppDelegate.m */; };
+		1A91FD11A94059E975A02772 /* ModuleDefinition+Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */; };
 		1A91FD121AEDA3A13933D8C0 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
 		1A91FD524FF2E6FC6BFF87F8 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
 		1A91FDA3E10B97589E382FAA /* WorkerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3B4AE1E0BCFB0C8228A /* WorkerImp.m */; };
@@ -62,13 +74,14 @@
 		1A91FE4AE94EFE6C79A58A9C /* ModuleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3415880315C89A48DF6 /* ModuleDefinition.m */; };
 		1A91FE8A0031AB7B57FC0812 /* Enhydris.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F0B631A8687B08498CD2 /* Enhydris.podspec.json */; };
 		1A91FEDA3C98B6D7D6FEF804 /* ImMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F431D0DB068CE916E8EF /* ImMain.m */; };
+		1A91FEF8310A264A229718A8 /* ModuleDefinition+Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */; };
 		1A91FF357A27D7C64327E6D2 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2334D3CF894B5274E47 /* DataSource.m */; };
+		1A91FF58F2CE4CCAFB894744 /* UINavigationController+ModuleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */; };
 		4CB6B36C3F64F9B5E0CB37BF /* Pods_EnhydrizComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */; };
 		ED058FB121EC9EF8002377B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF8E2AE50D15F2C0E99F /* main.m */; };
 		ED058FB221EC9EF8002377B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF279AA9551C27B9D955 /* AppDelegate.m */; };
 		ED058FB721EC9EF8002377B6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71C321E8731C006F60A1 /* LoginViewController.m */; };
 		ED058FB821EC9EF8002377B6 /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */; };
-		ED058FC121EC9EF8002377B6 /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F97CDD798253894B22D5 /* ModuleResponse.m */; };
 		ED058FC421EC9EF8002377B6 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2334D3CF894B5274E47 /* DataSource.m */; };
 		ED058FC621EC9EF8002377B6 /* Pods_EnhydrizComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */; };
 		ED058FC821EC9EF8002377B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F650259D9283103D5842 /* Assets.xcassets */; };
@@ -76,7 +89,6 @@
 		ED058FCB21EC9EF8002377B6 /* Enhydris.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F0B631A8687B08498CD2 /* Enhydris.podspec.json */; };
 		ED058FCC21EC9EF8002377B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F17EB43E925AE271F6F4 /* Main.storyboard */; };
 		ED058FDB21EDDF52002377B6 /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */; };
-		ED058FE321EDDF52002377B6 /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F97CDD798253894B22D5 /* ModuleResponse.m */; };
 		ED058FE621EDDF52002377B6 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2334D3CF894B5274E47 /* DataSource.m */; };
 		ED058FE721EDDF52002377B6 /* ModuleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3415880315C89A48DF6 /* ModuleDefinition.m */; };
 		ED058FE921EDDF52002377B6 /* Pods_EnhydrizComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */; };
@@ -91,16 +103,21 @@
 		ED5E71BC21E8718C006F60A1 /* Test0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71BB21E8718C006F60A1 /* Test0ViewController.m */; };
 		ED5E71BF21E8719E006F60A1 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71BE21E8719E006F60A1 /* Test1ViewController.m */; };
 		ED5E71C421E8731C006F60A1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71C321E8731C006F60A1 /* LoginViewController.m */; };
+		ED9AAE8121F2CEA700F24771 /* im_module.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8021F2CEA700F24771 /* im_module.plist */; };
+		ED9AAE8321F2CF2600F24771 /* im_module.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8221F2CF2600F24771 /* im_module.json */; };
+		ED9C301521F0508000C07410 /* MethodDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */; };
+		ED9C301621F0508300C07410 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A91F01783F8D2090028A764 /* LanguageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageType.h; sourceTree = "<group>"; };
+		1A91F01B9D240CDB7361751B /* ModuleConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleConfig.h; sourceTree = "<group>"; };
 		1A91F03E43A4F80C4947B061 /* ParamDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamDefinition.h; sourceTree = "<group>"; };
-		1A91F072F316BCFA72FDFFBD /* ServiceExportType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceExportType.h; sourceTree = "<group>"; };
 		1A91F0765B0B8D5ED28A2238 /* UserType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserType.h; sourceTree = "<group>"; };
-		1A91F0766814081F82908690 /* ModuleDefinition+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Internal.m"; sourceTree = "<group>"; };
 		1A91F07B8093393F847A66E2 /* IMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
+		1A91F0A5CF1472DB1A5B5021 /* ModuleConfigurationProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleConfigurationProcessor.h; sourceTree = "<group>"; };
 		1A91F0B631A8687B08498CD2 /* Enhydris.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Enhydris.podspec.json; sourceTree = "<group>"; };
+		1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ModuleAction.m"; sourceTree = "<group>"; };
 		1A91F0CE272B908B28EE8153 /* IMModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMModuleExport.h; sourceTree = "<group>"; };
 		1A91F1121EF987B8E25BB6ED /* MallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallViewController.m; sourceTree = "<group>"; };
 		1A91F16A6D812BF1AA8BF957 /* IMApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMApplicationDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +135,7 @@
 		1A91F402A08B689B9171E50E /* MotorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorType.h; sourceTree = "<group>"; };
 		1A91F40DFFB5B822EE2C42C8 /* Mall.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Mall.plist; sourceTree = "<group>"; };
 		1A91F431D0DB068CE916E8EF /* ImMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImMain.m; sourceTree = "<group>"; };
+		1A91F436304E05571939DF9D /* ModuleConfigurationProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigurationProcessor.m; sourceTree = "<group>"; };
 		1A91F488AD26474874427BB9 /* ModuleExportType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExportType.h; sourceTree = "<group>"; };
 		1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModuleImp.m; sourceTree = "<group>"; };
 		1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMModuleExport.m; sourceTree = "<group>"; };
@@ -126,29 +144,31 @@
 		1A91F650259D9283103D5842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A91F690939F2F9E29858A48 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A91F694AAAFEDE98C9F95E9 /* ApplicationStackImp+Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ApplicationStackImp+Demo.h"; sourceTree = "<group>"; };
+		1A91F6C6A2D238B9A22B1E30 /* ModuleDefinition+Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Generator.h"; sourceTree = "<group>"; };
 		1A91F6FC15EDCAECECE5E037 /* IM.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = IM.plist; sourceTree = "<group>"; };
 		1A91F7097F4B82C4404EE79E /* AppModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModuleExport.h; sourceTree = "<group>"; };
 		1A91F73B5F4AE5E476F59523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A91F7752EA7982FA465BF86 /* ModuleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleConfig.m; sourceTree = "<group>"; };
 		1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodDefinition.m; sourceTree = "<group>"; };
 		1A91F7E88435DCA524A546EF /* ApiConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiConfig.m; sourceTree = "<group>"; };
-		1A91F84E6E59CD4CA42285E7 /* ModuleResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleResponse.h; sourceTree = "<group>"; };
 		1A91F8BBD9DF736E30F6FDCB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		1A91F92AA80E306850B8BAC6 /* ModuleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleProvider.h; sourceTree = "<group>"; };
-		1A91F97CDD798253894B22D5 /* ModuleResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleResponse.m; sourceTree = "<group>"; };
 		1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsePipeImp.m; sourceTree = "<group>"; };
 		1A91F99B252F542FE3190FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleProvider.m; sourceTree = "<group>"; };
 		1A91F9E14A8EBBF49B33B706 /* MallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallViewController.h; sourceTree = "<group>"; };
 		1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleExport.m; sourceTree = "<group>"; };
 		1A91FA22096C9520E585B127 /* ApiConfigType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConfigType.h; sourceTree = "<group>"; };
+		1A91FB1771FB874FBB66E3A1 /* ModuleAutoInjectToProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAutoInjectToProperty.h; sourceTree = "<group>"; };
 		1A91FB39DF4BB215D9832D24 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		1A91FB44B9FE8C81032212D6 /* ModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExport.h; sourceTree = "<group>"; };
 		1A91FB9A9131C8FF2A17261B /* TestModuleImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModuleImp.h; sourceTree = "<group>"; };
-		1A91FBC41B937EC5796554A1 /* ModuleDefinition+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Internal.h"; sourceTree = "<group>"; };
 		1A91FBD5A25680E05FB515AA /* AppModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModuleExport.m; sourceTree = "<group>"; };
+		1A91FC1151CA632E36B15C11 /* ModuleDefinition+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Internal.h"; sourceTree = "<group>"; };
 		1A91FC3E6BF90F7C74240CAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A91FC5E93426D8AB1C2BEAB /* WorkerImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkerImp.h; sourceTree = "<group>"; };
 		1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationStackImp.m; sourceTree = "<group>"; };
+		1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Generator.m"; sourceTree = "<group>"; };
 		1A91FCE8351A65493475079C /* Mall.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mall.storyboard; sourceTree = "<group>"; };
 		1A91FD093F9A1E97A64F86B3 /* MethodDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodDefinition.h; sourceTree = "<group>"; };
 		1A91FD8307278E7B2572249A /* MallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallModel.h; sourceTree = "<group>"; };
@@ -160,7 +180,10 @@
 		1A91FF279AA9551C27B9D955 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A91FF3308357AB4A1EEDCC6 /* IM.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IM.xib; sourceTree = "<group>"; };
 		1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ApplicationStackImp+Demo.m"; sourceTree = "<group>"; };
+		1A91FF6857AC4A87F8354F57 /* ModuleDefinition+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Internal.m"; sourceTree = "<group>"; };
 		1A91FF8E2AE50D15F2C0E99F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAutoInjectToProperty.m; sourceTree = "<group>"; };
+		1A91FFEF8B7265A114BCF3C8 /* UINavigationController+ModuleAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ModuleAction.h"; sourceTree = "<group>"; };
 		1A91FFF1D9D7EEDA354E896D /* ApplicationStackType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationStackType.h; sourceTree = "<group>"; };
 		46D874B5037EC4D3585636F1 /* Pods-EnhydrizComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnhydrizComponents.debug.xcconfig"; path = "Target Support Files/Pods-EnhydrizComponents/Pods-EnhydrizComponents.debug.xcconfig"; sourceTree = "<group>"; };
 		90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnhydrizComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +199,8 @@
 		ED5E71BE21E8719E006F60A1 /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
 		ED5E71C221E8731C006F60A1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		ED5E71C321E8731C006F60A1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		ED9AAE8021F2CEA700F24771 /* im_module.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = im_module.plist; sourceTree = "<group>"; };
+		ED9AAE8221F2CF2600F24771 /* im_module.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = im_module.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,17 +231,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A91F019803F5334879C705F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1A91FD6ADB95C0F84EFAC849 /* UIKit */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		1A91F0249A0841C3219E6293 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				1A91F488AD26474874427BB9 /* ModuleExportType.h */,
-				1A91F072F316BCFA72FDFFBD /* ServiceExportType.h */,
 				1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */,
 				1A91F92AA80E306850B8BAC6 /* ModuleProvider.h */,
-				1A91F97CDD798253894B22D5 /* ModuleResponse.m */,
-				1A91F84E6E59CD4CA42285E7 /* ModuleResponse.h */,
-				1A91FC10B4A30CFC41652D2C /* Internal */,
 				1A91F7983760491DC145BB5E /* Definition */,
+				1A91F019803F5334879C705F /* Utils */,
+				1A91FAC295088B301A8C433D /* Factory */,
+				1A91FBD3D1CFF88A3A6654C4 /* Configuration */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -357,17 +389,40 @@
 				1A91F03E43A4F80C4947B061 /* ParamDefinition.h */,
 				1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */,
 				1A91FD093F9A1E97A64F86B3 /* MethodDefinition.h */,
+				1A91FBC2A67EF14197B4EA42 /* Internal */,
 			);
 			path = Definition;
 			sourceTree = "<group>";
 		};
-		1A91FC10B4A30CFC41652D2C /* Internal */ = {
+		1A91FAC295088B301A8C433D /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				1A91F0766814081F82908690 /* ModuleDefinition+Internal.m */,
-				1A91FBC41B937EC5796554A1 /* ModuleDefinition+Internal.h */,
+				1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */,
+				1A91FB1771FB874FBB66E3A1 /* ModuleAutoInjectToProperty.h */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		1A91FBC2A67EF14197B4EA42 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */,
+				1A91F6C6A2D238B9A22B1E30 /* ModuleDefinition+Generator.h */,
+				1A91FF6857AC4A87F8354F57 /* ModuleDefinition+Internal.m */,
+				1A91FC1151CA632E36B15C11 /* ModuleDefinition+Internal.h */,
 			);
 			path = Internal;
+			sourceTree = "<group>";
+		};
+		1A91FBD3D1CFF88A3A6654C4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F7752EA7982FA465BF86 /* ModuleConfig.m */,
+				1A91F01B9D240CDB7361751B /* ModuleConfig.h */,
+				1A91F436304E05571939DF9D /* ModuleConfigurationProcessor.m */,
+				1A91F0A5CF1472DB1A5B5021 /* ModuleConfigurationProcessor.h */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		1A91FC5157126958E3B4B208 /* Library */ = {
@@ -391,6 +446,24 @@
 				1A91F0C2D29B852EE730DA0E /* Specs */,
 				F6D4581239EE295AEA016FBA /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		1A91FD6ADB95C0F84EFAC849 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1A91FFEF8B7265A114BCF3C8 /* UINavigationController+ModuleAction.h */,
+				1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1A91FD9A48EAA2F7A37E37CE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				ED9AAE8021F2CEA700F24771 /* im_module.plist */,
+				ED9AAE8221F2CF2600F24771 /* im_module.json */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		1A91FE52F551F79EFA4B3EE8 /* Modules */ = {
@@ -458,6 +531,7 @@
 				ED5E71C021E872EA006F60A1 /* Views */,
 				1A91FBD5A25680E05FB515AA /* AppModuleExport.m */,
 				1A91F7097F4B82C4404EE79E /* AppModuleExport.h */,
+				1A91FD9A48EAA2F7A37E37CE /* Config */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -598,11 +672,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A91FB2B52F8124AF357E162 /* Assets.xcassets in Resources */,
+				ED9AAE8321F2CF2600F24771 /* im_module.json in Resources */,
 				1A91F5C24B4DD58D1C458CF1 /* LaunchScreen.storyboard in Resources */,
 				1A91FE8A0031AB7B57FC0812 /* Enhydris.podspec.json in Resources */,
 				1A91F727D7B4715ED24A7BDF /* Main.storyboard in Resources */,
 				1A91F806FE11D8A713FE6017 /* Mall.storyboard in Resources */,
 				1A91F7ED6D8C89E81E841099 /* IM.xib in Resources */,
+				ED9AAE8121F2CEA700F24771 /* im_module.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,9 +863,7 @@
 				ED5E71C421E8731C006F60A1 /* LoginViewController.m in Sources */,
 				1A91F332B34990C84572705B /* ModuleProvider.m in Sources */,
 				ED05900B21EF2392002377B6 /* MainIMViewController.m in Sources */,
-				1A91F15A0E434D1934C432FD /* ModuleResponse.m in Sources */,
 				1A91FF357A27D7C64327E6D2 /* DataSource.m in Sources */,
-				1A91F7A66AF2043F6F758968 /* ModuleDefinition+Internal.m in Sources */,
 				1A91FE4AE94EFE6C79A58A9C /* ModuleDefinition.m in Sources */,
 				1A91FD121AEDA3A13933D8C0 /* ParamDefinition.m in Sources */,
 				1A91FDC1416CCFCDC04097FB /* MethodDefinition.m in Sources */,
@@ -807,6 +881,12 @@
 				1A91F44948694599909E4AED /* IMViewController.m in Sources */,
 				1A91F80E8BB0B5C97027E4FF /* IMModuleExport.m in Sources */,
 				1A91F3A6CBAEA706CB1054E5 /* MallViewController.m in Sources */,
+				1A91F95B2E3FC93DAFC9BD9E /* UINavigationController+ModuleAction.m in Sources */,
+				1A91FB898EE14A5682253B81 /* ModuleConfig.m in Sources */,
+				1A91FEF8310A264A229718A8 /* ModuleDefinition+Generator.m in Sources */,
+				1A91FA2A49ADE300F1886583 /* ModuleDefinition+Internal.m in Sources */,
+				1A91FC056635CA692EC4EE97 /* ModuleAutoInjectToProperty.m in Sources */,
+				1A91F05A6046EB113B65592F /* ModuleConfigurationProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -819,7 +899,6 @@
 				ED05900521EDF195002377B6 /* MethodDefinition.m in Sources */,
 				ED058FB721EC9EF8002377B6 /* LoginViewController.m in Sources */,
 				ED058FB821EC9EF8002377B6 /* ModuleProvider.m in Sources */,
-				ED058FC121EC9EF8002377B6 /* ModuleResponse.m in Sources */,
 				ED058FC421EC9EF8002377B6 /* DataSource.m in Sources */,
 				1A91F89FFF07AB2CBC99799C /* ModuleDefinition.m in Sources */,
 				1A91F5B94532CB7C4241ABC1 /* ApplicationStackImp.m in Sources */,
@@ -834,6 +913,11 @@
 				1A91F952F90764F798A3DE93 /* TestModuleImp.m in Sources */,
 				1A91F561BB1B319D5FA2BA44 /* ModuleExport.m in Sources */,
 				1A91F5232D9BEA016C7ACB48 /* MallViewController.m in Sources */,
+				1A91FF58F2CE4CCAFB894744 /* UINavigationController+ModuleAction.m in Sources */,
+				1A91F6EEC0C8D8BDE4EC94D0 /* ModuleConfig.m in Sources */,
+				1A91F52B14E6A1E905E80388 /* ModuleDefinition+Generator.m in Sources */,
+				1A91F0B25C83168775555F41 /* ModuleAutoInjectToProperty.m in Sources */,
+				1A91F860DEC94AC3CCA93020 /* ModuleConfigurationProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -842,7 +926,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED058FDB21EDDF52002377B6 /* ModuleProvider.m in Sources */,
-				ED058FE321EDDF52002377B6 /* ModuleResponse.m in Sources */,
 				ED058FE621EDDF52002377B6 /* DataSource.m in Sources */,
 				ED058FE721EDDF52002377B6 /* ModuleDefinition.m in Sources */,
 				1A91FDE9FD77E139C25BC34F /* ApplicationStackImp.m in Sources */,
@@ -851,12 +934,19 @@
 				1A91F0AEB0C82290B79B7DB7 /* ApplicationStackImp+Demo.m in Sources */,
 				1A91F1C90DADBC22D5A62B00 /* RequestMakerImp.m in Sources */,
 				1A91F73ACA0E0289D4270AB8 /* ResponsePipeImp.m in Sources */,
+				ED9C301621F0508300C07410 /* ParamDefinition.m in Sources */,
 				1A91F9272767BC15EC8B2B49 /* ApiConfig.m in Sources */,
 				1A91F8ECCF90F93B29B0A8EB /* MallModel.m in Sources */,
 				1A91FEDA3C98B6D7D6FEF804 /* ImMain.m in Sources */,
+				ED9C301521F0508000C07410 /* MethodDefinition.m in Sources */,
 				1A91F0DE3F3BA84E3721EB61 /* IMViewController.m in Sources */,
 				1A91F9408C15868067281E75 /* IMApplicationDelegate.m in Sources */,
 				1A91F4BDEB51BD469C5AFA02 /* IMModuleExport.m in Sources */,
+				1A91F9D1C3589A01DCB37CED /* UINavigationController+ModuleAction.m in Sources */,
+				1A91F2B8730A3D6B2B9FD829 /* ModuleConfig.m in Sources */,
+				1A91FD11A94059E975A02772 /* ModuleDefinition+Generator.m in Sources */,
+				1A91F364086E4B3934C3439A /* ModuleAutoInjectToProperty.m in Sources */,
+				1A91F7360D7A5101DFFB4873 /* ModuleConfigurationProcessor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1057,7 +1147,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4R47MJ4W53;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				INFOPLIST_FILE = "$(SRCROOT)/IM.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/EnhydrizComponents/Modules/IM/App/IM.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isa.EnhydrizComponents;
@@ -1073,7 +1163,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4R47MJ4W53;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
-				INFOPLIST_FILE = "$(SRCROOT)/IM.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/EnhydrizComponents/Modules/IM/App/IM.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.isa.EnhydrizComponents;

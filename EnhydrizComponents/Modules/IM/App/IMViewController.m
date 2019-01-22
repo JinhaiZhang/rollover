@@ -10,6 +10,7 @@
 #import "ApplicationStackType.h"
 #import "ModuleProvider.h"
 #import "User.h"
+#import "MallModuleType.h"
 
 @interface IMViewController ()
 @property(nonatomic) NSString *userName;
@@ -18,8 +19,7 @@
 
 @implementation IMViewController
 
-
-+ (instancetype)initWithUser:(NSString *)userName {
++ (instancetype)initWithUser:(id <MallModuleType>)userName {
     IMViewController *im = [[IMViewController alloc] initWithNibName:@"IM" bundle:nil];
     return im;
 }

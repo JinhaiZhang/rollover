@@ -5,7 +5,6 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol ServiceExportType;
 @class ModuleDefinition;
 
 @protocol ModuleExportType <NSObject>

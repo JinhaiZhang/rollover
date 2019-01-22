@@ -7,6 +7,7 @@
 #import <objc/message.h>
 #import "ModuleDefinition.h"
 #import "MethodDefinition.h"
+#import "ModuleConfig.h"
 
 #define NSArrayObjectMaybeNil(__ARRAY__, __INDEX__) ((__INDEX__ >= [__ARRAY__ count]) ? nil : [__ARRAY__ objectAtIndex:__INDEX__])
 
@@ -70,8 +71,13 @@ nil
     return result;
 }
 
+
 - (void)defineConstructorMethod:(MethodDefinition *)methodConfig {
     self.constructMethod = methodConfig;
+}
+
+- (void)replaceWithConfig:(ModuleConfig *)config {
+
 }
 
 

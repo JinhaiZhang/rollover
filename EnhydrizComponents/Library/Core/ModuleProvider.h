@@ -10,9 +10,6 @@
 
 @interface ModuleProvider : NSObject
 
-/*初始化设定*/
-+ (void)setUp;
-
 /**
  * 此方法获取被注册协议的实现
  * @param aProtocol 协议

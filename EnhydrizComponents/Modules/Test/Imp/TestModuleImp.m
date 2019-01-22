@@ -4,6 +4,8 @@
 //
 #import <ReactiveObjC/RACSubject.h>
 #import "TestModuleImp.h"
+#import "MallModuleType.h"
+#import "ModuleProvider.h"
 
 @interface TestModuleImp ()
 @property(readonly) RACSubject *continuousSubject;
@@ -18,6 +20,9 @@
     _continuousSubject = RACSubject.subject;
     _nameSubject = RACSubject.subject;
     _name = prefix;
+
+    id<MallModuleType> mall= [ModuleProvider request:@protocol(MallModuleType)];
+
     return self;
 }
 

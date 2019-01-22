@@ -9,6 +9,9 @@
 #import "LoginViewController.h"
 #import "ApplicationStackImp.h"
 #import "User.h"
+#import "UINavigationController+ModuleAction.h"
+#import "IMModuleType.h"
+#import "ModuleProvider.h"
 @import Enhydris;
 
 @interface LoginViewController ()
@@ -34,13 +37,18 @@
         return self.username.rac_textSignal;
     }] subscribeNext:^(NSString *username) {
         @strongify(self)
-        [ApplicationStackImp.shared updateUser:[User userWithIdentifier:10 username:username sign:@"南风"]];
+        id <ApplicationStackType> app = [ModuleProvider request:@protocol(ApplicationStackType)];
+        [app updateUser:[User userWithIdentifier:10 username:username sign:@"南风"]];
         [self dismissViewControllerAnimated:true completion:nil];
     }];
 }
 
 - (IBAction)close:(id)sender {
     [self dismissViewControllerAnimated:true completion:nil];
+}
+
+- (IBAction)toIM:(id)sender {
+    [self.navigationController push:@protocol(IMModuleType) animated:YES];
 }
 
 @end

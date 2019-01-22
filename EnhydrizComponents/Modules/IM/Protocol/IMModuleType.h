@@ -7,9 +7,11 @@
 
 
 @protocol IMModuleInputsType <NSObject>
+
 @end
 
 @protocol IMModuleOutputsType <NSObject>
+
 @end
 
 @protocol IMModuleType

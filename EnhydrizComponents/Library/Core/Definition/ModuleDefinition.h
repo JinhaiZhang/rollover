@@ -3,27 +3,10 @@
 // Copyright (c) 2019 Yamazhiki. All rights reserved.
 //
 #import <Foundation/Foundation.h>
+#import "ModuleConfig.h"
 
-/**
- * Module作用域
- */
-typedef NS_ENUM(NSInteger, ModuleScope) {
-    /**
-     * 暂未实现
-     */
-            ModuleScopeObjectGraph,
-    /**
-     * 作用域随着ModuleProvider, 且唯一单例
-     */
-            ModuleScopeSingleton,
-    /**
-     * 始终创建新的实例
-     */
-            ModuleScopePrototype
-};
-
-@protocol ModuleCreator;
 @class MethodDefinition;
+@class ModuleConfig;
 
 /**
  * 模块定义类 （同是也是扩展点）
@@ -51,4 +34,7 @@ typedef NS_ENUM(NSInteger, ModuleScope) {
 - (void)defineConstructorMethod:(MethodDefinition *)methodConfig;
 
 - (id)createInstance:(id)params, ...;
+
+- (void)replaceWithConfig:(ModuleConfig *)config;
+
 @end

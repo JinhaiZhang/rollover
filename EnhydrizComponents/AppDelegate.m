@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "ModuleProvider.h"
 
 
 @interface AppDelegate ()
@@ -19,7 +18,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [ModuleProvider setUp];
     return YES;
 }
 

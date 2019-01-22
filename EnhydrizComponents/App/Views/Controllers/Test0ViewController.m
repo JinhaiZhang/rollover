@@ -7,8 +7,6 @@
 //
 
 #import "Test0ViewController.h"
-#import "ModuleProvider.h"
-#import "ApplicationStackType.h"
 
 @interface Test0ViewController ()
 
@@ -18,8 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    id app = [ModuleProvider request:@protocol(ApplicationStackType)];
-    NSLog(@"---->%@", app);
     // Do any additional setup after loading the view.
 }
 

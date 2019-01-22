@@ -11,19 +11,35 @@
 #import "ModuleProvider.h"
 
 @interface MainIMViewController ()
-
+@property(nonatomic, retain) UIViewController <IMModuleType> *vc;
 @end
 
 @implementation MainIMViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIViewController <IMModuleType> *vc = [ModuleProvider request:@protocol(IMModuleType)];
-    vc.view.frame = self.view.bounds;
-    [self.view addSubview:vc.view];
-    [self addChildViewController:vc];
 
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    if (!self.vc) {
+        self.vc = [ModuleProvider request:@protocol(IMModuleType)];
+    }
+    self.vc.view.frame = self.view.bounds;
+    [self.view addSubview:self.vc.view];
+    [self addChildViewController:self.vc];
+}
+
+- (IBAction)clear:(id)sender {
+    if (self.vc) {
+        [self.vc willMoveToParentViewController:nil];
+        [self.vc.view removeFromSuperview];
+        [self.vc removeFromParentViewController];
+        [self.vc didMoveToParentViewController:nil];
+        self.vc = nil;
+    }
 }
 
 @end
