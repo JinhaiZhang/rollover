@@ -128,7 +128,7 @@
 		ED5E71BF21E8719E006F60A1 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71BE21E8719E006F60A1 /* Test1ViewController.m */; };
 		ED5E71C421E8731C006F60A1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71C321E8731C006F60A1 /* LoginViewController.m */; };
 		ED9AAE8121F2CEA700F24771 /* im_module.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8021F2CEA700F24771 /* im_module.plist */; };
-		ED9AAE8321F2CF2600F24771 /* moduleConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8221F2CF2600F24771 /* moduleConfig.json */; };
+		ED9AAE8321F2CF2600F24771 /* moduleConfigs.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8221F2CF2600F24771 /* moduleConfigs.json */; };
 		ED9C301521F0508000C07410 /* MethodDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */; };
 		ED9C301621F0508300C07410 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
 /* End PBXBuildFile section */
@@ -242,7 +242,7 @@
 		ED5E71C221E8731C006F60A1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		ED5E71C321E8731C006F60A1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		ED9AAE8021F2CEA700F24771 /* im_module.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = im_module.plist; sourceTree = "<group>"; };
-		ED9AAE8221F2CF2600F24771 /* moduleConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = moduleConfig.json; sourceTree = "<group>"; };
+		ED9AAE8221F2CF2600F24771 /* moduleConfigs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = moduleConfigs.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -529,7 +529,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9AAE8021F2CEA700F24771 /* im_module.plist */,
-				ED9AAE8221F2CF2600F24771 /* moduleConfig.json */,
+				ED9AAE8221F2CF2600F24771 /* moduleConfigs.json */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -740,7 +740,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A91FB2B52F8124AF357E162 /* Assets.xcassets in Resources */,
-				ED9AAE8321F2CF2600F24771 /* moduleConfig.json in Resources */,
+				ED9AAE8321F2CF2600F24771 /* moduleConfigs.json in Resources */,
 				1A91F5C24B4DD58D1C458CF1 /* LaunchScreen.storyboard in Resources */,
 				1A91FE8A0031AB7B57FC0812 /* Enhydris.podspec.json in Resources */,
 				1A91F727D7B4715ED24A7BDF /* Main.storyboard in Resources */,

@@ -6,7 +6,7 @@
 #import "ModuleConfigCollector.h"
 #import "ModuleJsonConfigProcessor.h"
 
-static NSString *ModuleConfigJsonFileName = @"moduleConfig";
+static NSString *ModuleConfigJsonFileName = @"moduleConfigs";
 
 @interface ModuleConfigCollector ()
 @property(readonly) id appDelegate;
