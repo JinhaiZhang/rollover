@@ -5,8 +5,9 @@
 
 #import "MallViewController.h"
 #import "MallModel.h"
+#import "ModuleCreatorType.h"
 
-@interface MallViewController () <UITableViewDelegate, UITableViewDataSource, MallModuleOutputsType, MallModuleInputsType>
+@interface MallViewController () <UITableViewDelegate, UITableViewDataSource, MallModuleOutputsType, MallModuleInputsType, ModuleCreatorType>
 @property(weak, nonatomic) IBOutlet UITableView *tableView;
 @property(nonatomic) NSArray<Product *> *products;
 @property(nonatomic) NSInteger categoryId;
@@ -15,10 +16,11 @@
 @property(nonatomic) RACSubject<Product *> *selectProductSubject;
 @end
 
-
 @implementation MallViewController {
 
 }
+
+
 + (instancetype)initWithCategoryId:(NSNumber *)categoryId {
     MallViewController *rlt = [UIStoryboard storyboardWithName:@"Mall" bundle:nil].instantiateInitialViewController;
     rlt.categoryId = categoryId.integerValue;

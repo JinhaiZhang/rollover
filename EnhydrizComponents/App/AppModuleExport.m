@@ -12,9 +12,11 @@
 + (NSArray<ModuleDefinition *> *)services {
     return @[
             [ModuleDefinition definitionWithProtocol:@protocol(ApplicationStackType)
-                                         targetClass:[ApplicationStackImp class]
-                                       configuration:^(ModuleDefinition *definition) {
-                                           definition.scope = ModuleScopeSingleton;
+                                       configuration:^NSArray<ModuleConfig *> * {
+                                           return @[
+                                                   [[ModuleConfig alloc] initWithCls:[ApplicationStackImp class]
+                                                                     constructMethod:nil
+                                                                               scope:ModuleScopeSingleton]];
                                        }]
     ];
 }

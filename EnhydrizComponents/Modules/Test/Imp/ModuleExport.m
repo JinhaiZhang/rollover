@@ -35,15 +35,17 @@
 + (NSArray<ModuleDefinition *> *)services {
     return @[
             [ModuleDefinition definitionWithProtocol:@protocol(MallModuleType)
-                                         targetClass:[MallViewController class]
-                                       configuration:^(ModuleDefinition *definition) {
-                                           [definition defineConstructorMethod:[MethodDefinition classMethod:@selector(initWithCategoryId:)]];
+                                       configuration:^NSArray<ModuleConfig *> * {
+                                           return @[
+                                                   [[ModuleConfig alloc] initWithCls:[MallViewController class]
+                                                                     constructMethod:[MethodDefinition methodWithInstance:@selector(initWithCategoryId:)]]];
                                        }],
-            [ModuleDefinition definitionWithProtocol:@protocol(TestModuleType)
-                                         targetClass:[TestModuleImp class]
-                                       configuration:^(ModuleDefinition *definition) {
-                                           [definition defineConstructorMethod:[MethodDefinition instanceMethod:@selector(initWithPrefix:)]];
-                                       }]
+            [ModuleDefinition definitionWithProtocol:@protocol(TestModuleType) configuration:^NSArray<ModuleConfig *> * {
+                return @[
+                        [[ModuleConfig alloc] initWithCls:[TestModuleImp class]
+                                          constructMethod:[MethodDefinition methodWithInstance:@selector(initWithPrefix:)]]
+                ];
+            }]
     ];
 }
 

@@ -11,13 +11,21 @@
 #import "ModuleProvider.h"
 #import "User.h"
 #import "MallModuleType.h"
+#import "ModuleCreatorType.h"
 
-@interface IMViewController ()
+@interface IMViewController () <ModuleCreatorType>
 @property(nonatomic) NSString *userName;
 @property(weak, nonatomic) IBOutlet UITextField *nameInput;
 @end
 
 @implementation IMViewController
+
+
+- (id)initWithParams:(NSArray *)params {
+    self = [super initWithNibName:@"IM" bundle:nil];
+    self.userName = params[0];
+    return self;
+}
 
 + (instancetype)initWithUser:(id <MallModuleType>)userName {
     IMViewController *im = [[IMViewController alloc] initWithNibName:@"IM" bundle:nil];

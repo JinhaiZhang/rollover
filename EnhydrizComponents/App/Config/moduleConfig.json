@@ -1,0 +1,11 @@
+[
+  {
+    "type": "IMModuleType",
+    "configs": [
+      {
+        "scope": 1,
+        "class": "IMViewController"
+      }
+    ]
+  }
+]

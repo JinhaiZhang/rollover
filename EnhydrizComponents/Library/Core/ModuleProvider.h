@@ -15,13 +15,13 @@
  * @param aProtocol 协议
  * @return 协议的实现 id<aProtocol>
  */
-+ (id)request:(Protocol *)aProtocol;
++ (ModuleResponse *)request:(Protocol *)aProtocol;
 
 /**
  * 获得被注册的协议实现
  * @param aProtocol 协议
- * @param args      协议实例构造所需要的参数
- * @return          协议实例
+ * @param params      协议实例构造所需要的参数
+ * @return          ModuleResponse 实例
  */
-+ (id)request:(Protocol *)aProtocol params:(id)args, ...;
++ (ModuleResponse *)request:(Protocol *)aProtocol params:(NSArray *)params;
 @end

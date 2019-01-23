@@ -12,6 +12,7 @@
 #import "ModuleProvider.h"
 #import "MallModuleType.h"
 #import "MallModel.h"
+#import "ModuleResponse.h"
 
 @interface Test1ViewModel : NSObject
 @property(nonatomic) RACSignal *userInfoUpdate;
@@ -57,7 +58,7 @@
     @weakify(self)
     [self.viewModel.userInfoUpdate subscribeNext:^(id x) {
         @strongify(self)
-        id <ApplicationStackType> stack = [ModuleProvider request:@protocol(ApplicationStackType)];
+        id <ApplicationStackType> stack = [ModuleProvider request:@protocol(ApplicationStackType)].object;
         WorkerImp *imp = stack.current;
         self.login.text = imp.appUser.username;
     }];
@@ -67,10 +68,10 @@
 - (IBAction)loadModule:(id)sender {
     @weakify(self)
 /*这我们加载TestModule*/
-    self.remoteModule = [ModuleProvider request:@protocol(TestModuleType) params:self.remoteModule];
+    self.remoteModule = [ModuleProvider request:@protocol(TestModuleType) params:nil].object;
     [self bindNewViewModel];
 
-    UIViewController <MallModuleType> *viewController = [ModuleProvider request:@protocol(MallModuleType) params:@1];
+    UIViewController <MallModuleType> *viewController = [ModuleProvider request:@protocol(MallModuleType)].object;
     viewController.view.frame = self.containerView.bounds;
     [self.containerView addSubview:viewController.view];
     [self addChildViewController:viewController];

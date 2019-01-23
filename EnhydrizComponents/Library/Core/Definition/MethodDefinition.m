@@ -9,8 +9,6 @@
 
 @implementation MethodDefinition
 
-@synthesize type = _type, method = _method;
-
 - (instancetype)initWithType:(MethodDefinitionType)type method:(SEL)method {
     self = [super init];
     _type = type;
@@ -18,12 +16,22 @@
     return self;
 }
 
-+ (instancetype)classMethod:(SEL)classMethod {
-    return [[MethodDefinition alloc] initWithType:MethodDefinitionTypeClassMethod method:classMethod];
++ (instancetype)methodWithClass:(SEL)classMethod {
+    return [self methodWithString:[NSString stringWithFormat:@"+%@", NSStringFromSelector(classMethod)]];
 }
 
-+ (instancetype)instanceMethod:(SEL)instanceMethod {
-    return [[MethodDefinition alloc] initWithType:MethodDefinitionTypeInstanceMethod method:instanceMethod];
++ (instancetype)methodWithInstance:(SEL)instanceMethod {
+    return [self methodWithString:[NSString stringWithFormat:@"-%@", NSStringFromSelector(instanceMethod)]];
 }
+
++ (instancetype)methodWithString:(NSString *)methodString {
+    MethodDefinitionType type = MethodDefinitionTypeClassMethod;
+    if ([methodString hasPrefix:@"-"]) {
+        type = MethodDefinitionTypeInstanceMethod;
+    }
+    SEL method = NSSelectorFromString([methodString substringWithRange:NSMakeRange(1, methodString.length - 1)]);
+    return [[MethodDefinition alloc] initWithType:type method:method];
+}
+
 
 @end

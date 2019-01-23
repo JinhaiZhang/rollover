@@ -6,8 +6,6 @@
 #import <UIKit/UIKit.h>
 #import <objc/message.h>
 #import "ModuleDefinition.h"
-#import "MethodDefinition.h"
-#import "ModuleConfig.h"
 
 #define NSArrayObjectMaybeNil(__ARRAY__, __INDEX__) ((__INDEX__ >= [__ARRAY__ count]) ? nil : [__ARRAY__ objectAtIndex:__INDEX__])
 
@@ -25,67 +23,47 @@ NSArrayObjectMaybeNil(__ARRAY_NAME__, 9),\
 nil
 
 @interface ModuleDefinition ()
-@property(nonatomic) MethodDefinition *constructMethod;
 
-- (instancetype)initWithProtocol:(Protocol *)aProtocol cls:(id)cls;
+@property(nonatomic, readwrite) NSArray<ModuleConfig *> *configCollection;
+
+- (instancetype)initWithProtocol:(Protocol *)aProtocol;
+
 @end
 
 @implementation ModuleDefinition
-- (instancetype)initWithProtocol:(Protocol *)aProtocol cls:(id)cls {
+
+
+- (instancetype)initWithProtocol:(Protocol *)aProtocol {
     self = [super init];
     if (self) {
         _aProtocol = aProtocol;
-        _cls = cls;
     }
-
     return self;
 }
 
-+ (instancetype)definitionWithProtocol:(Protocol *)aProtocol cls:(id)cls {
-    return [[self alloc] initWithProtocol:aProtocol cls:cls];
-}
-
-+ (instancetype)definitionWithProtocol:(Protocol *)aProtocol targetClass:(Class)targetClass configuration:(void (^)(ModuleDefinition *))configuration {
-    ModuleDefinition *definition = [[ModuleDefinition alloc] initWithProtocol:aProtocol cls:targetClass];
-    if (configuration) configuration(definition);
++ (instancetype)definitionWithProtocol:(Protocol *)aProtocol configuration:(NSArray<ModuleConfig *> *(^)(void))configuration {
+    ModuleDefinition *definition = [[ModuleDefinition alloc] initWithProtocol:aProtocol];
+    if (configuration) {
+        definition.configCollection = [NSMutableSet setWithArray:configuration()].allObjects;
+    }
     return definition;
 }
 
-- (id)createInstance:(id)params, ... {
-    id result = nil;
-    if (self.constructMethod) {
-        switch (self.constructMethod.type) {
-            case MethodDefinitionTypeInstanceMethod: {
-                id classInstance = [self.cls alloc];
-                id (*create)(id, SEL, ...) = (id (*)(id, SEL, ...)) [classInstance methodForSelector:self.constructMethod.method];
-                return create(classInstance, self.constructMethod.method, params);
-            }
-            default: {
-                id (*create)(id, SEL, ...) =  (id (*)(id, SEL, ...)) [self.cls methodForSelector:self.constructMethod.method];
-                return create(self.cls, self.constructMethod.method, params);
-            }
-        }
-    } else {
-        result = [[self.cls alloc] init];
-    }
-    return result;
+
+- (id)obtainInstance:(NSArray *)params {
+    if (self.configCollection.firstObject)
+        return [self.configCollection.firstObject create:params];
+    return nil;
 }
 
-
-- (void)defineConstructorMethod:(MethodDefinition *)methodConfig {
-    self.constructMethod = methodConfig;
+- (void)addConfigs:(NSArray<ModuleConfig *> *)configs {
+    NSMutableArray *source = [NSMutableArray arrayWithArray:configs];
+    [source removeObjectsInArray:self.configCollection];
+    NSMutableSet *ori = [NSMutableSet setWithArray:source];
+    NSMutableSet *in = [NSMutableSet setWithArray:configs];
+    [ori unionSet:in];
+    self.configCollection = ori.allObjects;
 }
-
-- (void)replaceWithConfig:(ModuleConfig *)config {
-
-}
-
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-
-
-#pragma clang diagnostic pop
 
 
 @end

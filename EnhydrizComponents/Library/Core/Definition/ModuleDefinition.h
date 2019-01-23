@@ -18,23 +18,23 @@
  * 被导出模块的协议
  */
 @property(readonly) Protocol *aProtocol;
-/**
- * 被导出模块的实现
- */
-@property(readonly) Class cls;
-/**
- * 模块作用域
- */
-@property(nonatomic) ModuleScope scope;
+
 
 + (instancetype)definitionWithProtocol:(Protocol *)aProtocol
-                           targetClass:(Class)targetClass
-                         configuration:(void (^)(ModuleDefinition *))configuration;
+                         configuration:(NSArray<ModuleConfig *> *(^)(void))configuration;
 
-- (void)defineConstructorMethod:(MethodDefinition *)methodConfig;
+/**
+ * 生成实例
+ * @param params 实例类构造需要的参数
+ * @return id
+ */
+- (id)obtainInstance:(NSArray *)params;
 
-- (id)createInstance:(id)params, ...;
+/**
+ * 覆盖配置
+ * @param configs 目标配置集合
+ */
 
-- (void)replaceWithConfig:(ModuleConfig *)config;
+- (void)addConfigs:(NSArray<ModuleConfig *> *)configs;
 
 @end

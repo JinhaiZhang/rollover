@@ -12,16 +12,21 @@
 		1A91F0AEB0C82290B79B7DB7 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
 		1A91F0B25C83168775555F41 /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */; };
 		1A91F0DE3F3BA84E3721EB61 /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F07B8093393F847A66E2 /* IMViewController.m */; };
+		1A91F0E6334A55B4A7132DD9 /* ModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FA0051D970CFD0F1965F /* ModuleFactory.m */; };
+		1A91F12D4B7258B7783AB4EE /* ModuleConfigProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FB771261EE51A3E00704 /* ModuleConfigProcessorFactory.m */; };
 		1A91F138F0489D160206B595 /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
 		1A91F13ACBDA4C2494E79FC8 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
+		1A91F15589E2278F739296C0 /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FA259A43F8270CF567D4 /* ModuleConfig.m */; };
 		1A91F1C90DADBC22D5A62B00 /* RequestMakerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */; };
+		1A91F1D5263D033C3296090B /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1294DC47B55510388A2 /* ModuleResponse.m */; };
 		1A91F1E5C30DFF76F69DDD77 /* ModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */; };
 		1A91F232C3814104B668CF42 /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
 		1A91F26EA288FC7A1E2097BF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
-		1A91F2B8730A3D6B2B9FD829 /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7752EA7982FA465BF86 /* ModuleConfig.m */; };
+		1A91F2B54A566C8CDE509EC2 /* NSArray+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */; };
 		1A91F332B34990C84572705B /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */; };
 		1A91F364086E4B3934C3439A /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */; };
 		1A91F3A6CBAEA706CB1054E5 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1121EF987B8E25BB6ED /* MallViewController.m */; };
+		1A91F420E4ABBEC92C90E2AA /* ModuleJsonConfigProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F69A230EEDB6482974F6 /* ModuleJsonConfigProcessor.m */; };
 		1A91F44948694599909E4AED /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F07B8093393F847A66E2 /* IMViewController.m */; };
 		1A91F474A64EAC2CED1CB69B /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
 		1A91F481ACE7BF4A3364253D /* ResponsePipeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */; };
@@ -33,37 +38,54 @@
 		1A91F561BB1B319D5FA2BA44 /* ModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */; };
 		1A91F5B94532CB7C4241ABC1 /* ApplicationStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */; };
 		1A91F5C24B4DD58D1C458CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F58C1251BBEBBA3B1B56 /* LaunchScreen.storyboard */; };
+		1A91F61F797A1C0CD38B7B2A /* ModuleConfigProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FB771261EE51A3E00704 /* ModuleConfigProcessorFactory.m */; };
 		1A91F629BADD3C4B6A795070 /* TestModuleImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */; };
 		1A91F653B562319E8A68AFB3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
+		1A91F6572C0314E40E51233B /* NSArray+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */; };
+		1A91F66FDC05BD5C4D2A2646 /* ModuleConfigCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC77384EF349D49566FB /* ModuleConfigCollector.m */; };
+		1A91F6B2B1BA4903636CCFE3 /* ModulePropertyListProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FAD15037B0E15A8EED8B /* ModulePropertyListProcessor.m */; };
 		1A91F6DB518B2A0051A77992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF8E2AE50D15F2C0E99F /* main.m */; };
-		1A91F6EEC0C8D8BDE4EC94D0 /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7752EA7982FA465BF86 /* ModuleConfig.m */; };
+		1A91F6DF8E069B5332A3DDE5 /* ModuleConfigCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC77384EF349D49566FB /* ModuleConfigCollector.m */; };
+		1A91F6EC066FED00B3B3D2FA /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FA259A43F8270CF567D4 /* ModuleConfig.m */; };
 		1A91F727D7B4715ED24A7BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F17EB43E925AE271F6F4 /* Main.storyboard */; };
 		1A91F7360D7A5101DFFB4873 /* ModuleConfigurationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F436304E05571939DF9D /* ModuleConfigurationProcessor.m */; };
 		1A91F73ACA0E0289D4270AB8 /* ResponsePipeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */; };
+		1A91F7BECDD5B6337D95A98A /* ModuleConfigCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC77384EF349D49566FB /* ModuleConfigCollector.m */; };
+		1A91F7C4A7CF65A26F5C00C0 /* ModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FA0051D970CFD0F1965F /* ModuleFactory.m */; };
 		1A91F7ED6D8C89E81E841099 /* IM.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FF3308357AB4A1EEDCC6 /* IM.xib */; };
 		1A91F806FE11D8A713FE6017 /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FCE8351A65493475079C /* Mall.storyboard */; };
 		1A91F80E8BB0B5C97027E4FF /* IMModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */; };
 		1A91F815B12CE88A7D7D5042 /* IM.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FF3308357AB4A1EEDCC6 /* IM.xib */; };
+		1A91F84F36C4957216BF638A /* ModulePropertyListProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FAD15037B0E15A8EED8B /* ModulePropertyListProcessor.m */; };
 		1A91F860DEC94AC3CCA93020 /* ModuleConfigurationProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F436304E05571939DF9D /* ModuleConfigurationProcessor.m */; };
 		1A91F8728A55590EE44E1125 /* RequestMakerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */; };
 		1A91F89FFF07AB2CBC99799C /* ModuleDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F3415880315C89A48DF6 /* ModuleDefinition.m */; };
 		1A91F8ECCF90F93B29B0A8EB /* MallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FDED380F61818B7B2C27 /* MallModel.m */; };
 		1A91F8F3A49FF761117BD47D /* RequestMakerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1DEC78B0A6ECCFE9570 /* RequestMakerImp.m */; };
 		1A91F9272767BC15EC8B2B49 /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
+		1A91F93F8D91961D9E8AD501 /* ModuleJsonConfigProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F69A230EEDB6482974F6 /* ModuleJsonConfigProcessor.m */; };
 		1A91F9408C15868067281E75 /* IMApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F6409DDFF173102541E7 /* IMApplicationDelegate.m */; };
 		1A91F9504480828A762EA9FD /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91FCE8351A65493475079C /* Mall.storyboard */; };
 		1A91F952F90764F798A3DE93 /* TestModuleImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */; };
 		1A91F95B2E3FC93DAFC9BD9E /* UINavigationController+ModuleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */; };
+		1A91F9C6C58F089779AB2407 /* ModuleConfigProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FB771261EE51A3E00704 /* ModuleConfigProcessorFactory.m */; };
 		1A91F9D1C3589A01DCB37CED /* UINavigationController+ModuleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */; };
 		1A91FA2A49ADE300F1886583 /* ModuleDefinition+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF6857AC4A87F8354F57 /* ModuleDefinition+Internal.m */; };
 		1A91FA35ACB7F0E88E5F6617 /* AppModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FBD5A25680E05FB515AA /* AppModuleExport.m */; };
+		1A91FA3F1216A5AA61258D78 /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1294DC47B55510388A2 /* ModuleResponse.m */; };
+		1A91FA5EB0A99347D58D5A78 /* ModuleJsonConfigProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F69A230EEDB6482974F6 /* ModuleJsonConfigProcessor.m */; };
+		1A91FAA04C2EA7CA85F5EC79 /* ModuleResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1294DC47B55510388A2 /* ModuleResponse.m */; };
 		1A91FABBD723E66870953101 /* ResponsePipeImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */; };
 		1A91FADD22FD825A2BAD07A4 /* ApplicationStackImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */; };
 		1A91FB2B52F8124AF357E162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F650259D9283103D5842 /* Assets.xcassets */; };
-		1A91FB898EE14A5682253B81 /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7752EA7982FA465BF86 /* ModuleConfig.m */; };
+		1A91FB37EE932C4CEF99C0A4 /* ModulePropertyListProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FAD15037B0E15A8EED8B /* ModulePropertyListProcessor.m */; };
+		1A91FB659CFF56E2ED28EA5C /* ModuleSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F8E3B993FF01A68BDAC8 /* ModuleSetup.m */; };
 		1A91FB940C7C953413E3DD0A /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
+		1A91FBE74A06A5F5E26D0671 /* ModuleSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F8E3B993FF01A68BDAC8 /* ModuleSetup.m */; };
 		1A91FC056635CA692EC4EE97 /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */; };
 		1A91FC697C7935AD10D88674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF279AA9551C27B9D955 /* AppDelegate.m */; };
+		1A91FC965121117D51576CCB /* NSArray+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */; };
+		1A91FCDD7A05CAA28962F11C /* ModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FA0051D970CFD0F1965F /* ModuleFactory.m */; };
 		1A91FD11A94059E975A02772 /* ModuleDefinition+Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */; };
 		1A91FD121AEDA3A13933D8C0 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
 		1A91FD524FF2E6FC6BFF87F8 /* ApplicationStackImp+Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF3BC9BD1CC6DEE037EE /* ApplicationStackImp+Demo.m */; };
@@ -76,7 +98,9 @@
 		1A91FEDA3C98B6D7D6FEF804 /* ImMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F431D0DB068CE916E8EF /* ImMain.m */; };
 		1A91FEF8310A264A229718A8 /* ModuleDefinition+Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */; };
 		1A91FF357A27D7C64327E6D2 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2334D3CF894B5274E47 /* DataSource.m */; };
+		1A91FF48FA2FAEE65D0CEFC1 /* ModuleSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F8E3B993FF01A68BDAC8 /* ModuleSetup.m */; };
 		1A91FF58F2CE4CCAFB894744 /* UINavigationController+ModuleAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */; };
+		1A91FFA53D4FB9870C4B862A /* ModuleConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FA259A43F8270CF567D4 /* ModuleConfig.m */; };
 		4CB6B36C3F64F9B5E0CB37BF /* Pods_EnhydrizComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FFBFCF385E944111AB81F4 /* Pods_EnhydrizComponents.framework */; };
 		ED058FB121EC9EF8002377B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF8E2AE50D15F2C0E99F /* main.m */; };
 		ED058FB221EC9EF8002377B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF279AA9551C27B9D955 /* AppDelegate.m */; };
@@ -104,7 +128,7 @@
 		ED5E71BF21E8719E006F60A1 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71BE21E8719E006F60A1 /* Test1ViewController.m */; };
 		ED5E71C421E8731C006F60A1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71C321E8731C006F60A1 /* LoginViewController.m */; };
 		ED9AAE8121F2CEA700F24771 /* im_module.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8021F2CEA700F24771 /* im_module.plist */; };
-		ED9AAE8321F2CF2600F24771 /* im_module.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8221F2CF2600F24771 /* im_module.json */; };
+		ED9AAE8321F2CF2600F24771 /* moduleConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8221F2CF2600F24771 /* moduleConfig.json */; };
 		ED9C301521F0508000C07410 /* MethodDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */; };
 		ED9C301621F0508300C07410 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
 /* End PBXBuildFile section */
@@ -120,6 +144,7 @@
 		1A91F0C76A755A3088DA1563 /* UINavigationController+ModuleAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ModuleAction.m"; sourceTree = "<group>"; };
 		1A91F0CE272B908B28EE8153 /* IMModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMModuleExport.h; sourceTree = "<group>"; };
 		1A91F1121EF987B8E25BB6ED /* MallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallViewController.m; sourceTree = "<group>"; };
+		1A91F1294DC47B55510388A2 /* ModuleResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleResponse.m; sourceTree = "<group>"; };
 		1A91F16A6D812BF1AA8BF957 /* IMApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMApplicationDelegate.h; sourceTree = "<group>"; };
 		1A91F17EB43E925AE271F6F4 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1A91F1818EA2CC5B54AB0AA8 /* RequestMakerImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestMakerImp.h; sourceTree = "<group>"; };
@@ -129,7 +154,9 @@
 		1A91F25F3A92981000E6BBA8 /* ResponsePipeImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponsePipeImp.h; sourceTree = "<group>"; };
 		1A91F33E843D797281D8EFB4 /* MallModuleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallModuleType.h; sourceTree = "<group>"; };
 		1A91F3415880315C89A48DF6 /* ModuleDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleDefinition.m; sourceTree = "<group>"; };
+		1A91F344F0911CB7B690D517 /* ModuleCreatorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleCreatorType.h; sourceTree = "<group>"; };
 		1A91F35971F21F7EBDE14F24 /* TestModuleType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModuleType.h; sourceTree = "<group>"; };
+		1A91F3A05ED1DD6FBF503D95 /* ModuleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleFactory.h; sourceTree = "<group>"; };
 		1A91F3A5984EC2A899F6DE91 /* IMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
 		1A91F3B4AE1E0BCFB0C8228A /* WorkerImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkerImp.m; sourceTree = "<group>"; };
 		1A91F402A08B689B9171E50E /* MotorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorType.h; sourceTree = "<group>"; };
@@ -139,29 +166,42 @@
 		1A91F488AD26474874427BB9 /* ModuleExportType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExportType.h; sourceTree = "<group>"; };
 		1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModuleImp.m; sourceTree = "<group>"; };
 		1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMModuleExport.m; sourceTree = "<group>"; };
+		1A91F50557615EB4DB6620C2 /* ModuleJsonConfigProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleJsonConfigProcessor.h; sourceTree = "<group>"; };
+		1A91F509269F302D2AD0B46D /* ModuleResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleResponse.h; sourceTree = "<group>"; };
+		1A91F594C7536EE9171E7C8A /* ModuleConfigCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleConfigCollector.h; sourceTree = "<group>"; };
 		1A91F5B87B46DDFAF6995A88 /* ApplicationStackImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationStackImp.h; sourceTree = "<group>"; };
 		1A91F6409DDFF173102541E7 /* IMApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMApplicationDelegate.m; sourceTree = "<group>"; };
 		1A91F650259D9283103D5842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A91F690939F2F9E29858A48 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A91F694AAAFEDE98C9F95E9 /* ApplicationStackImp+Demo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ApplicationStackImp+Demo.h"; sourceTree = "<group>"; };
+		1A91F69A230EEDB6482974F6 /* ModuleJsonConfigProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleJsonConfigProcessor.m; sourceTree = "<group>"; };
 		1A91F6C6A2D238B9A22B1E30 /* ModuleDefinition+Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Generator.h"; sourceTree = "<group>"; };
 		1A91F6FC15EDCAECECE5E037 /* IM.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = IM.plist; sourceTree = "<group>"; };
 		1A91F7097F4B82C4404EE79E /* AppModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModuleExport.h; sourceTree = "<group>"; };
+		1A91F7103354361FC7BD5C69 /* ModuleProcessorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleProcessorType.h; sourceTree = "<group>"; };
 		1A91F73B5F4AE5E476F59523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1A91F7752EA7982FA465BF86 /* ModuleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleConfig.m; sourceTree = "<group>"; };
 		1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodDefinition.m; sourceTree = "<group>"; };
 		1A91F7E88435DCA524A546EF /* ApiConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiConfig.m; sourceTree = "<group>"; };
+		1A91F843A7EBD41CFF1AE455 /* ModuleSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleSetup.h; sourceTree = "<group>"; };
+		1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Params.m"; sourceTree = "<group>"; };
 		1A91F8BBD9DF736E30F6FDCB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1A91F8E3B993FF01A68BDAC8 /* ModuleSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleSetup.m; sourceTree = "<group>"; };
+		1A91F8E8D8F2E550C9EB5C1E /* ModuleConfigProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleConfigProcessorFactory.h; sourceTree = "<group>"; };
 		1A91F92AA80E306850B8BAC6 /* ModuleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleProvider.h; sourceTree = "<group>"; };
 		1A91F98438D31CD2D4A76783 /* ResponsePipeImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponsePipeImp.m; sourceTree = "<group>"; };
 		1A91F99B252F542FE3190FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleProvider.m; sourceTree = "<group>"; };
 		1A91F9E14A8EBBF49B33B706 /* MallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallViewController.h; sourceTree = "<group>"; };
 		1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleExport.m; sourceTree = "<group>"; };
+		1A91FA0051D970CFD0F1965F /* ModuleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleFactory.m; sourceTree = "<group>"; };
 		1A91FA22096C9520E585B127 /* ApiConfigType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConfigType.h; sourceTree = "<group>"; };
+		1A91FA259A43F8270CF567D4 /* ModuleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleConfig.m; sourceTree = "<group>"; };
+		1A91FAD15037B0E15A8EED8B /* ModulePropertyListProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModulePropertyListProcessor.m; sourceTree = "<group>"; };
+		1A91FADF8883A4D0C796DB24 /* NSArray+Params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Params.h"; sourceTree = "<group>"; };
 		1A91FB1771FB874FBB66E3A1 /* ModuleAutoInjectToProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAutoInjectToProperty.h; sourceTree = "<group>"; };
 		1A91FB39DF4BB215D9832D24 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		1A91FB44B9FE8C81032212D6 /* ModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExport.h; sourceTree = "<group>"; };
+		1A91FB771261EE51A3E00704 /* ModuleConfigProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigProcessorFactory.m; sourceTree = "<group>"; };
 		1A91FB9A9131C8FF2A17261B /* TestModuleImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModuleImp.h; sourceTree = "<group>"; };
 		1A91FBD5A25680E05FB515AA /* AppModuleExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModuleExport.m; sourceTree = "<group>"; };
 		1A91FC1151CA632E36B15C11 /* ModuleDefinition+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleDefinition+Internal.h"; sourceTree = "<group>"; };
@@ -169,11 +209,13 @@
 		1A91FC5E93426D8AB1C2BEAB /* WorkerImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkerImp.h; sourceTree = "<group>"; };
 		1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationStackImp.m; sourceTree = "<group>"; };
 		1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Generator.m"; sourceTree = "<group>"; };
+		1A91FC77384EF349D49566FB /* ModuleConfigCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigCollector.m; sourceTree = "<group>"; };
 		1A91FCE8351A65493475079C /* Mall.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mall.storyboard; sourceTree = "<group>"; };
 		1A91FD093F9A1E97A64F86B3 /* MethodDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodDefinition.h; sourceTree = "<group>"; };
 		1A91FD8307278E7B2572249A /* MallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallModel.h; sourceTree = "<group>"; };
 		1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamDefinition.m; sourceTree = "<group>"; };
 		1A91FD9C7D1FECDDE81A554B /* ApiConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConfig.h; sourceTree = "<group>"; };
+		1A91FDE9D29BA8A451C4C068 /* ModulePropertyListProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModulePropertyListProcessor.h; sourceTree = "<group>"; };
 		1A91FDED380F61818B7B2C27 /* MallModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallModel.m; sourceTree = "<group>"; };
 		1A91FE2F851E61B02686ED17 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		1A91FE8B0089FBB06EBA5B84 /* ModuleDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleDefinition.h; sourceTree = "<group>"; };
@@ -200,7 +242,7 @@
 		ED5E71C221E8731C006F60A1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		ED5E71C321E8731C006F60A1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		ED9AAE8021F2CEA700F24771 /* im_module.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = im_module.plist; sourceTree = "<group>"; };
-		ED9AAE8221F2CF2600F24771 /* im_module.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = im_module.json; sourceTree = "<group>"; };
+		ED9AAE8221F2CF2600F24771 /* moduleConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = moduleConfig.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +277,8 @@
 			isa = PBXGroup;
 			children = (
 				1A91FD6ADB95C0F84EFAC849 /* UIKit */,
+				1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */,
+				1A91FADF8883A4D0C796DB24 /* NSArray+Params.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -249,6 +293,7 @@
 				1A91F019803F5334879C705F /* Utils */,
 				1A91FAC295088B301A8C433D /* Factory */,
 				1A91FBD3D1CFF88A3A6654C4 /* Configuration */,
+				1A91F344F0911CB7B690D517 /* ModuleCreatorType.h */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -327,6 +372,18 @@
 			path = Imp;
 			sourceTree = "<group>";
 		};
+		1A91F38E7B66A8EB46D990C5 /* Processor */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F7103354361FC7BD5C69 /* ModuleProcessorType.h */,
+				1A91FAD15037B0E15A8EED8B /* ModulePropertyListProcessor.m */,
+				1A91FDE9D29BA8A451C4C068 /* ModulePropertyListProcessor.h */,
+				1A91F69A230EEDB6482974F6 /* ModuleJsonConfigProcessor.m */,
+				1A91F50557615EB4DB6620C2 /* ModuleJsonConfigProcessor.h */,
+			);
+			path = Processor;
+			sourceTree = "<group>";
+		};
 		1A91F39E41B2456036F127D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +456,10 @@
 			children = (
 				1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */,
 				1A91FB1771FB874FBB66E3A1 /* ModuleAutoInjectToProperty.h */,
+				1A91FA0051D970CFD0F1965F /* ModuleFactory.m */,
+				1A91F3A05ED1DD6FBF503D95 /* ModuleFactory.h */,
+				1A91F509269F302D2AD0B46D /* ModuleResponse.h */,
+				1A91F1294DC47B55510388A2 /* ModuleResponse.m */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -417,10 +478,17 @@
 		1A91FBD3D1CFF88A3A6654C4 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				1A91F7752EA7982FA465BF86 /* ModuleConfig.m */,
 				1A91F01B9D240CDB7361751B /* ModuleConfig.h */,
 				1A91F436304E05571939DF9D /* ModuleConfigurationProcessor.m */,
 				1A91F0A5CF1472DB1A5B5021 /* ModuleConfigurationProcessor.h */,
+				1A91F8E3B993FF01A68BDAC8 /* ModuleSetup.m */,
+				1A91F843A7EBD41CFF1AE455 /* ModuleSetup.h */,
+				1A91FC77384EF349D49566FB /* ModuleConfigCollector.m */,
+				1A91F594C7536EE9171E7C8A /* ModuleConfigCollector.h */,
+				1A91FB771261EE51A3E00704 /* ModuleConfigProcessorFactory.m */,
+				1A91F8E8D8F2E550C9EB5C1E /* ModuleConfigProcessorFactory.h */,
+				1A91F38E7B66A8EB46D990C5 /* Processor */,
+				1A91FA259A43F8270CF567D4 /* ModuleConfig.m */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -461,7 +529,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9AAE8021F2CEA700F24771 /* im_module.plist */,
-				ED9AAE8221F2CF2600F24771 /* im_module.json */,
+				ED9AAE8221F2CF2600F24771 /* moduleConfig.json */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -672,7 +740,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A91FB2B52F8124AF357E162 /* Assets.xcassets in Resources */,
-				ED9AAE8321F2CF2600F24771 /* im_module.json in Resources */,
+				ED9AAE8321F2CF2600F24771 /* moduleConfig.json in Resources */,
 				1A91F5C24B4DD58D1C458CF1 /* LaunchScreen.storyboard in Resources */,
 				1A91FE8A0031AB7B57FC0812 /* Enhydris.podspec.json in Resources */,
 				1A91F727D7B4715ED24A7BDF /* Main.storyboard in Resources */,
@@ -882,11 +950,19 @@
 				1A91F80E8BB0B5C97027E4FF /* IMModuleExport.m in Sources */,
 				1A91F3A6CBAEA706CB1054E5 /* MallViewController.m in Sources */,
 				1A91F95B2E3FC93DAFC9BD9E /* UINavigationController+ModuleAction.m in Sources */,
-				1A91FB898EE14A5682253B81 /* ModuleConfig.m in Sources */,
 				1A91FEF8310A264A229718A8 /* ModuleDefinition+Generator.m in Sources */,
 				1A91FA2A49ADE300F1886583 /* ModuleDefinition+Internal.m in Sources */,
 				1A91FC056635CA692EC4EE97 /* ModuleAutoInjectToProperty.m in Sources */,
 				1A91F05A6046EB113B65592F /* ModuleConfigurationProcessor.m in Sources */,
+				1A91FBE74A06A5F5E26D0671 /* ModuleSetup.m in Sources */,
+				1A91F7C4A7CF65A26F5C00C0 /* ModuleFactory.m in Sources */,
+				1A91F66FDC05BD5C4D2A2646 /* ModuleConfigCollector.m in Sources */,
+				1A91F61F797A1C0CD38B7B2A /* ModuleConfigProcessorFactory.m in Sources */,
+				1A91F15589E2278F739296C0 /* ModuleConfig.m in Sources */,
+				1A91F84F36C4957216BF638A /* ModulePropertyListProcessor.m in Sources */,
+				1A91F93F8D91961D9E8AD501 /* ModuleJsonConfigProcessor.m in Sources */,
+				1A91F1D5263D033C3296090B /* ModuleResponse.m in Sources */,
+				1A91FC965121117D51576CCB /* NSArray+Params.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -914,10 +990,18 @@
 				1A91F561BB1B319D5FA2BA44 /* ModuleExport.m in Sources */,
 				1A91F5232D9BEA016C7ACB48 /* MallViewController.m in Sources */,
 				1A91FF58F2CE4CCAFB894744 /* UINavigationController+ModuleAction.m in Sources */,
-				1A91F6EEC0C8D8BDE4EC94D0 /* ModuleConfig.m in Sources */,
 				1A91F52B14E6A1E905E80388 /* ModuleDefinition+Generator.m in Sources */,
 				1A91F0B25C83168775555F41 /* ModuleAutoInjectToProperty.m in Sources */,
 				1A91F860DEC94AC3CCA93020 /* ModuleConfigurationProcessor.m in Sources */,
+				1A91FB659CFF56E2ED28EA5C /* ModuleSetup.m in Sources */,
+				1A91F0E6334A55B4A7132DD9 /* ModuleFactory.m in Sources */,
+				1A91F6DF8E069B5332A3DDE5 /* ModuleConfigCollector.m in Sources */,
+				1A91F12D4B7258B7783AB4EE /* ModuleConfigProcessorFactory.m in Sources */,
+				1A91FFA53D4FB9870C4B862A /* ModuleConfig.m in Sources */,
+				1A91FB37EE932C4CEF99C0A4 /* ModulePropertyListProcessor.m in Sources */,
+				1A91F420E4ABBEC92C90E2AA /* ModuleJsonConfigProcessor.m in Sources */,
+				1A91FA3F1216A5AA61258D78 /* ModuleResponse.m in Sources */,
+				1A91F6572C0314E40E51233B /* NSArray+Params.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,10 +1027,18 @@
 				1A91F9408C15868067281E75 /* IMApplicationDelegate.m in Sources */,
 				1A91F4BDEB51BD469C5AFA02 /* IMModuleExport.m in Sources */,
 				1A91F9D1C3589A01DCB37CED /* UINavigationController+ModuleAction.m in Sources */,
-				1A91F2B8730A3D6B2B9FD829 /* ModuleConfig.m in Sources */,
 				1A91FD11A94059E975A02772 /* ModuleDefinition+Generator.m in Sources */,
 				1A91F364086E4B3934C3439A /* ModuleAutoInjectToProperty.m in Sources */,
 				1A91F7360D7A5101DFFB4873 /* ModuleConfigurationProcessor.m in Sources */,
+				1A91FF48FA2FAEE65D0CEFC1 /* ModuleSetup.m in Sources */,
+				1A91FCDD7A05CAA28962F11C /* ModuleFactory.m in Sources */,
+				1A91F7BECDD5B6337D95A98A /* ModuleConfigCollector.m in Sources */,
+				1A91F9C6C58F089779AB2407 /* ModuleConfigProcessorFactory.m in Sources */,
+				1A91F6EC066FED00B3B3D2FA /* ModuleConfig.m in Sources */,
+				1A91F6B2B1BA4903636CCFE3 /* ModulePropertyListProcessor.m in Sources */,
+				1A91FA5EB0A99347D58D5A78 /* ModuleJsonConfigProcessor.m in Sources */,
+				1A91FAA04C2EA7CA85F5EC79 /* ModuleResponse.m in Sources */,
+				1A91F2B54A566C8CDE509EC2 /* NSArray+Params.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

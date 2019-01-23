@@ -9,6 +9,7 @@
 #import "MainIMViewController.h"
 #import "IMModuleType.h"
 #import "ModuleProvider.h"
+#import "ModuleResponse.h"
 
 @interface MainIMViewController ()
 @property(nonatomic, retain) UIViewController <IMModuleType> *vc;
@@ -18,14 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     // Do any additional setup after loading the view.
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     if (!self.vc) {
-        self.vc = [ModuleProvider request:@protocol(IMModuleType)];
+        ModuleResponse *response = [ModuleProvider request:@protocol(IMModuleType) params:@[@"Yamazhiki"]];
+        self.vc = response.object;
     }
     self.vc.view.frame = self.view.bounds;
     [self.view addSubview:self.vc.view];
