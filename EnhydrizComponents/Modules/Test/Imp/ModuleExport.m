@@ -8,7 +8,6 @@
 #import "TestModuleImp.h"
 #import "ModuleDefinition.h"
 #import "MallViewController.h"
-#import "MethodDefinition.h"
 
 @interface ModuleExport ()
 @property(readonly) TestModuleImp *imp;
@@ -37,14 +36,12 @@
             [ModuleDefinition definitionWithProtocol:@protocol(MallModuleType)
                                        configuration:^NSArray<ModuleConfig *> * {
                                            return @[
-                                                   [[ModuleConfig alloc] initWithCls:[MallViewController class]
-                                                                     constructMethod:[MethodDefinition methodWithInstance:@selector(initWithCategoryId:)]]];
+                                                   [[ModuleConfig alloc] initWithCls:[MallViewController class]]
+                                           ];
                                        }],
             [ModuleDefinition definitionWithProtocol:@protocol(TestModuleType) configuration:^NSArray<ModuleConfig *> * {
                 return @[
-                        [[ModuleConfig alloc] initWithCls:[TestModuleImp class]
-                                          constructMethod:[MethodDefinition methodWithInstance:@selector(initWithPrefix:)]]
-                ];
+                        [[ModuleConfig alloc] initWithCls:[TestModuleImp class]]];
             }]
     ];
 }

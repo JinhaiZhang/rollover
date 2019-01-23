@@ -22,7 +22,6 @@
 		1A91F1E5C30DFF76F69DDD77 /* ModuleExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9EEE1C85B0163582BC2 /* ModuleExport.m */; };
 		1A91F232C3814104B668CF42 /* ApiConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7E88435DCA524A546EF /* ApiConfig.m */; };
 		1A91F26EA288FC7A1E2097BF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
-		1A91F2B54A566C8CDE509EC2 /* NSArray+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */; };
 		1A91F332B34990C84572705B /* ModuleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F9B2FEA7E962E25F1597 /* ModuleProvider.m */; };
 		1A91F364086E4B3934C3439A /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */; };
 		1A91F3A6CBAEA706CB1054E5 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1121EF987B8E25BB6ED /* MallViewController.m */; };
@@ -41,7 +40,6 @@
 		1A91F61F797A1C0CD38B7B2A /* ModuleConfigProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FB771261EE51A3E00704 /* ModuleConfigProcessorFactory.m */; };
 		1A91F629BADD3C4B6A795070 /* TestModuleImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F493F0FBCAB02DE4EBD6 /* TestModuleImp.m */; };
 		1A91F653B562319E8A68AFB3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FE2F851E61B02686ED17 /* User.m */; };
-		1A91F6572C0314E40E51233B /* NSArray+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */; };
 		1A91F66FDC05BD5C4D2A2646 /* ModuleConfigCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC77384EF349D49566FB /* ModuleConfigCollector.m */; };
 		1A91F6B2B1BA4903636CCFE3 /* ModulePropertyListProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FAD15037B0E15A8EED8B /* ModulePropertyListProcessor.m */; };
 		1A91F6DB518B2A0051A77992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF8E2AE50D15F2C0E99F /* main.m */; };
@@ -84,7 +82,6 @@
 		1A91FBE74A06A5F5E26D0671 /* ModuleSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F8E3B993FF01A68BDAC8 /* ModuleSetup.m */; };
 		1A91FC056635CA692EC4EE97 /* ModuleAutoInjectToProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FFAF2532FF025097C13E /* ModuleAutoInjectToProperty.m */; };
 		1A91FC697C7935AD10D88674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FF279AA9551C27B9D955 /* AppDelegate.m */; };
-		1A91FC965121117D51576CCB /* NSArray+Params.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */; };
 		1A91FCDD7A05CAA28962F11C /* ModuleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FA0051D970CFD0F1965F /* ModuleFactory.m */; };
 		1A91FD11A94059E975A02772 /* ModuleDefinition+Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */; };
 		1A91FD121AEDA3A13933D8C0 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
@@ -129,6 +126,10 @@
 		ED5E71C421E8731C006F60A1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5E71C321E8731C006F60A1 /* LoginViewController.m */; };
 		ED9AAE8121F2CEA700F24771 /* im_module.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8021F2CEA700F24771 /* im_module.plist */; };
 		ED9AAE8321F2CF2600F24771 /* moduleConfigs.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8221F2CF2600F24771 /* moduleConfigs.json */; };
+		ED9AAE8721F85DFC00F24771 /* IM2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9AAE8521F85DFC00F24771 /* IM2ViewController.m */; };
+		ED9AAE8821F85DFC00F24771 /* IM2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9AAE8521F85DFC00F24771 /* IM2ViewController.m */; };
+		ED9AAE8921F85DFC00F24771 /* IM2.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8621F85DFC00F24771 /* IM2.xib */; };
+		ED9AAE8A21F85DFC00F24771 /* IM2.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED9AAE8621F85DFC00F24771 /* IM2.xib */; };
 		ED9C301521F0508000C07410 /* MethodDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */; };
 		ED9C301621F0508300C07410 /* ParamDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91FD8A8BE602A481AB7783 /* ParamDefinition.m */; };
 /* End PBXBuildFile section */
@@ -183,7 +184,6 @@
 		1A91F7832CA44EB4280F5E58 /* MethodDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodDefinition.m; sourceTree = "<group>"; };
 		1A91F7E88435DCA524A546EF /* ApiConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiConfig.m; sourceTree = "<group>"; };
 		1A91F843A7EBD41CFF1AE455 /* ModuleSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleSetup.h; sourceTree = "<group>"; };
-		1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Params.m"; sourceTree = "<group>"; };
 		1A91F8BBD9DF736E30F6FDCB /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		1A91F8E3B993FF01A68BDAC8 /* ModuleSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleSetup.m; sourceTree = "<group>"; };
 		1A91F8E8D8F2E550C9EB5C1E /* ModuleConfigProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleConfigProcessorFactory.h; sourceTree = "<group>"; };
@@ -197,7 +197,6 @@
 		1A91FA22096C9520E585B127 /* ApiConfigType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiConfigType.h; sourceTree = "<group>"; };
 		1A91FA259A43F8270CF567D4 /* ModuleConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleConfig.m; sourceTree = "<group>"; };
 		1A91FAD15037B0E15A8EED8B /* ModulePropertyListProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModulePropertyListProcessor.m; sourceTree = "<group>"; };
-		1A91FADF8883A4D0C796DB24 /* NSArray+Params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Params.h"; sourceTree = "<group>"; };
 		1A91FB1771FB874FBB66E3A1 /* ModuleAutoInjectToProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAutoInjectToProperty.h; sourceTree = "<group>"; };
 		1A91FB39DF4BB215D9832D24 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
 		1A91FB44B9FE8C81032212D6 /* ModuleExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleExport.h; sourceTree = "<group>"; };
@@ -210,6 +209,7 @@
 		1A91FC639490DF6F86D80B57 /* ApplicationStackImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationStackImp.m; sourceTree = "<group>"; };
 		1A91FC76C9A8F963725B04C6 /* ModuleDefinition+Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleDefinition+Generator.m"; sourceTree = "<group>"; };
 		1A91FC77384EF349D49566FB /* ModuleConfigCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleConfigCollector.m; sourceTree = "<group>"; };
+		1A91FCE295AB2342DA93B976 /* ModuleDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleDefine.h; sourceTree = "<group>"; };
 		1A91FCE8351A65493475079C /* Mall.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mall.storyboard; sourceTree = "<group>"; };
 		1A91FD093F9A1E97A64F86B3 /* MethodDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodDefinition.h; sourceTree = "<group>"; };
 		1A91FD8307278E7B2572249A /* MallModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallModel.h; sourceTree = "<group>"; };
@@ -243,6 +243,9 @@
 		ED5E71C321E8731C006F60A1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		ED9AAE8021F2CEA700F24771 /* im_module.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = im_module.plist; sourceTree = "<group>"; };
 		ED9AAE8221F2CF2600F24771 /* moduleConfigs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = moduleConfigs.json; sourceTree = "<group>"; };
+		ED9AAE8421F85DFC00F24771 /* IM2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IM2ViewController.h; sourceTree = "<group>"; };
+		ED9AAE8521F85DFC00F24771 /* IM2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IM2ViewController.m; sourceTree = "<group>"; };
+		ED9AAE8621F85DFC00F24771 /* IM2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IM2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,8 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				1A91FD6ADB95C0F84EFAC849 /* UIKit */,
-				1A91F84C2E4B9B35ECC44E57 /* NSArray+Params.m */,
-				1A91FADF8883A4D0C796DB24 /* NSArray+Params.h */,
+				1A91FCE295AB2342DA93B976 /* ModuleDefine.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -556,6 +558,9 @@
 				1A91FF3308357AB4A1EEDCC6 /* IM.xib */,
 				1A91F498A5F11DC58E8C5595 /* IMModuleExport.m */,
 				1A91F0CE272B908B28EE8153 /* IMModuleExport.h */,
+				ED9AAE8421F85DFC00F24771 /* IM2ViewController.h */,
+				ED9AAE8521F85DFC00F24771 /* IM2ViewController.m */,
+				ED9AAE8621F85DFC00F24771 /* IM2.xib */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -744,6 +749,7 @@
 				1A91F5C24B4DD58D1C458CF1 /* LaunchScreen.storyboard in Resources */,
 				1A91FE8A0031AB7B57FC0812 /* Enhydris.podspec.json in Resources */,
 				1A91F727D7B4715ED24A7BDF /* Main.storyboard in Resources */,
+				ED9AAE8921F85DFC00F24771 /* IM2.xib in Resources */,
 				1A91F806FE11D8A713FE6017 /* Mall.storyboard in Resources */,
 				1A91F7ED6D8C89E81E841099 /* IM.xib in Resources */,
 				ED9AAE8121F2CEA700F24771 /* im_module.plist in Resources */,
@@ -771,6 +777,7 @@
 				ED058FEE21EDDF52002377B6 /* Enhydris.podspec.json in Resources */,
 				ED058FEF21EDDF52002377B6 /* Main.storyboard in Resources */,
 				ED05900421EDEC59002377B6 /* Default-568h@2x.png in Resources */,
+				ED9AAE8A21F85DFC00F24771 /* IM2.xib in Resources */,
 				1A91F9504480828A762EA9FD /* Mall.storyboard in Resources */,
 				1A91F815B12CE88A7D7D5042 /* IM.xib in Resources */,
 			);
@@ -958,11 +965,11 @@
 				1A91F7C4A7CF65A26F5C00C0 /* ModuleFactory.m in Sources */,
 				1A91F66FDC05BD5C4D2A2646 /* ModuleConfigCollector.m in Sources */,
 				1A91F61F797A1C0CD38B7B2A /* ModuleConfigProcessorFactory.m in Sources */,
+				ED9AAE8721F85DFC00F24771 /* IM2ViewController.m in Sources */,
 				1A91F15589E2278F739296C0 /* ModuleConfig.m in Sources */,
 				1A91F84F36C4957216BF638A /* ModulePropertyListProcessor.m in Sources */,
 				1A91F93F8D91961D9E8AD501 /* ModuleJsonConfigProcessor.m in Sources */,
 				1A91F1D5263D033C3296090B /* ModuleResponse.m in Sources */,
-				1A91FC965121117D51576CCB /* NSArray+Params.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1001,7 +1008,6 @@
 				1A91FB37EE932C4CEF99C0A4 /* ModulePropertyListProcessor.m in Sources */,
 				1A91F420E4ABBEC92C90E2AA /* ModuleJsonConfigProcessor.m in Sources */,
 				1A91FA3F1216A5AA61258D78 /* ModuleResponse.m in Sources */,
-				1A91F6572C0314E40E51233B /* NSArray+Params.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1034,11 +1040,11 @@
 				1A91FCDD7A05CAA28962F11C /* ModuleFactory.m in Sources */,
 				1A91F7BECDD5B6337D95A98A /* ModuleConfigCollector.m in Sources */,
 				1A91F9C6C58F089779AB2407 /* ModuleConfigProcessorFactory.m in Sources */,
+				ED9AAE8821F85DFC00F24771 /* IM2ViewController.m in Sources */,
 				1A91F6EC066FED00B3B3D2FA /* ModuleConfig.m in Sources */,
 				1A91F6B2B1BA4903636CCFE3 /* ModulePropertyListProcessor.m in Sources */,
 				1A91FA5EB0A99347D58D5A78 /* ModuleJsonConfigProcessor.m in Sources */,
 				1A91FAA04C2EA7CA85F5EC79 /* ModuleResponse.m in Sources */,
-				1A91F2B54A566C8CDE509EC2 /* NSArray+Params.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

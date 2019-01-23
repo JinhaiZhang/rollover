@@ -9,7 +9,7 @@
 
 @implementation UINavigationController (ModuleAction)
 - (void)push:(Protocol *)moduleType animated:(BOOL)animated {
-    id target = [ModuleProvider request:moduleType];
+    id target = [ModuleProvider request:moduleType].object;
     if ([target isKindOfClass:[UIViewController class]]) {
         [self pushViewController:target animated:animated];
     }

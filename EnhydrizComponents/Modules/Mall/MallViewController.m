@@ -20,6 +20,12 @@
 
 }
 
+- (id)initWithParams:(NSArray *)params {
+    MallViewController *rlt = [UIStoryboard storyboardWithName:@"Mall" bundle:nil].instantiateInitialViewController;
+    rlt.categoryId = [params[0] integerValue];
+    return rlt;
+}
+
 
 + (instancetype)initWithCategoryId:(NSNumber *)categoryId {
     MallViewController *rlt = [UIStoryboard storyboardWithName:@"Mall" bundle:nil].instantiateInitialViewController;

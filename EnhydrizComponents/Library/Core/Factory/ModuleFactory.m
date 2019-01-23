@@ -73,18 +73,38 @@
 }
 
 
-- (ModuleResponse *)obtainModuleByProtocol:(Protocol *)aProtocol params:(NSArray *)params {
+- (ModuleResponse *)obtainModuleByProtocol:(Protocol *)aProtocol params:(NSArray *)params condition:(ModuleIndex)condition {
     NSString *key = NSStringFromProtocol(aProtocol);
     ModuleDefinition *definition = _definitions[key];
     if (definition) {
-        return [ModuleResponse responseWithObject:[definition obtainInstance:params]];
+        ModuleConfig *config = definition[condition];
+        id instance = nil;
+        switch (config.scope) {
+            case ModuleScopePrototype: {
+                instance = [config create:params];
+                break;
+            }
+            case ModuleScopeSingleton: {
+                instance = self.singletonRefs[key];
+                if (!instance)
+                    instance = [config create:params];
+                self.singletonRefs[key] = instance;
+                break;
+            }
+            case ModuleScopeWeakSingleton: {
+                instance = [self.weakRefs objectForKey:key];
+                if (!instance)
+                    instance = [config create:params];
+                [self.weakRefs setObject:instance forKey:key];
+                break;
+            }
+            default:
+                break;
+        }
+        return [ModuleResponse responseWithObject:instance];
     } else {
         return [ModuleResponse responseWithError:[NSError errorWithDomain:@"com.isa.enhydriz" code:404 userInfo:@{@"protocol": NSStringFromProtocol(aProtocol)}]];
     }
-}
-
-- (id)obtainModule:(ModuleDefinition *)definition params:(id)params, ... {
-    return [definition obtainInstance:params];
 }
 
 @end

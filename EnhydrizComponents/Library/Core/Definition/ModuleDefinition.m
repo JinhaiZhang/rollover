@@ -7,21 +7,6 @@
 #import <objc/message.h>
 #import "ModuleDefinition.h"
 
-#define NSArrayObjectMaybeNil(__ARRAY__, __INDEX__) ((__INDEX__ >= [__ARRAY__ count]) ? nil : [__ARRAY__ objectAtIndex:__INDEX__])
-
-#define Args(__ARRAY_NAME__)\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 0),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 1),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 2),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 3),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 4),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 5),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 6),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 7),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 8),\
-NSArrayObjectMaybeNil(__ARRAY_NAME__, 9),\
-nil
-
 @interface ModuleDefinition ()
 
 @property(nonatomic, readwrite) NSArray<ModuleConfig *> *configCollection;
@@ -49,20 +34,26 @@ nil
     return definition;
 }
 
-
-- (id)obtainInstance:(NSArray *)params {
-    if (self.configCollection.firstObject)
-        return [self.configCollection.firstObject create:params];
-    return nil;
+- (ModuleConfig *)objectAtIndexedSubscript:(NSUInteger)idx {
+    return self.configCollection[idx];
 }
 
 - (void)addConfigs:(NSArray<ModuleConfig *> *)configs {
-    NSMutableArray *source = [NSMutableArray arrayWithArray:configs];
-    [source removeObjectsInArray:self.configCollection];
-    NSMutableSet *ori = [NSMutableSet setWithArray:source];
-    NSMutableSet *in = [NSMutableSet setWithArray:configs];
-    [ori unionSet:in];
-    self.configCollection = ori.allObjects;
+
+    __block NSMutableArray *temp = [NSMutableArray arrayWithArray:self.configCollection];
+
+    [configs enumerateObjectsUsingBlock:^(ModuleConfig *obj, NSUInteger idx, BOOL *stop) {
+        if ([temp containsObject:obj]) {
+            [temp removeObject:obj];
+        }
+
+        [temp addObject:obj];
+    }];
+    self.configCollection = temp;
+}
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"%@", @{@"Protocol": NSStringFromProtocol(self.aProtocol), @"configs": self.configCollection}];
 }
 
 

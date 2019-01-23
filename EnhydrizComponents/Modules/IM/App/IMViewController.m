@@ -45,7 +45,7 @@
 }
 
 - (IBAction)changeName:(id)sender {
-    id <ApplicationStackType> applicationStack = [ModuleProvider request:@protocol(ApplicationStackType)];
+    id <ApplicationStackType> applicationStack = [ModuleProvider request:@protocol(ApplicationStackType)].object;
     [applicationStack updateUser:[[User alloc] initWithIdentifier:10 username:self.nameInput.text sign:@""]];
 }
 

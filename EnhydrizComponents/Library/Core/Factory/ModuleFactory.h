@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ModuleDefine.h"
 
 @class ModuleDefinition;
 @class ModuleResponse;
@@ -11,6 +12,10 @@
 
 
 @interface ModuleFactory : NSObject
+/**
+ * 默认工厂
+ * @return ModuleFactory
+ */
 + (instancetype)defaultFactory;
 
 /**
@@ -19,7 +24,13 @@
  */
 - (void)combineWithObtainedConfigs:(NSArray<NSDictionary<NSString *, NSArray<ModuleConfig *> *> *> *)configs;
 
-- (ModuleResponse *)obtainModuleByProtocol:(Protocol *)aProtocol params:(NSArray *)params;
+/**
+ * 获取模块实现
+ * @param aProtocol     实现协议的模块
+ * @param params        参数
+ * @param condition     模块索引
+ * @return ModuleResponse
+ */
+- (ModuleResponse *)obtainModuleByProtocol:(Protocol *)aProtocol params:(NSArray *)params condition:(ModuleIndex)condition;
 
-- (id)obtainModule:(ModuleDefinition *)definition params:(id)params, ...;
 @end

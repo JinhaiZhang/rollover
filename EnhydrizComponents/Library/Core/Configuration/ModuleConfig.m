@@ -4,7 +4,6 @@
 //
 
 #import "ModuleConfig.h"
-#import "MethodDefinition.h"
 
 @interface ModuleConfig ()
 @end
@@ -12,25 +11,13 @@
 
 @implementation ModuleConfig
 - (instancetype)initWithCls:(Class)cls {
-    return [self initWithCls:cls constructMethod:nil scope:ModuleScopeObjectGraph];
-}
-
-- (instancetype)initWithCls:(Class)cls constructMethod:(MethodDefinition *)constructMethod {
-    return [self initWithCls:cls constructMethod:constructMethod scope:ModuleScopeObjectGraph];
+    return [self initWithCls:cls scope:ModuleScopePrototype];
 }
 
 - (instancetype)initWithCls:(Class)cls scope:(ModuleScope)scope {
-    return [self initWithCls:cls constructMethod:nil scope:scope];
-}
-
-- (instancetype)initWithCls:(Class)cls constructMethod:(MethodDefinition *)constructMethod scope:(ModuleScope)scope {
     self = [super init];
     if (self) {
         _cls = cls;
-        if (!constructMethod) {
-            constructMethod = [MethodDefinition methodWithString:@"-init"];
-        }
-        _constructMethod = constructMethod;
         _scope = scope;
     }
 

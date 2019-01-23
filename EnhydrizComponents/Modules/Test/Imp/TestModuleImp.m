@@ -2,10 +2,9 @@
 // Created by 王斌 on 2019-01-14.
 // Copyright (c) 2019 Yamazhiki. All rights reserved.
 //
+
 #import <ReactiveObjC/RACSubject.h>
 #import "TestModuleImp.h"
-#import "MallModuleType.h"
-#import "ModuleProvider.h"
 
 @interface TestModuleImp ()
 @property(readonly) RACSubject *continuousSubject;
@@ -15,14 +14,11 @@
 
 @implementation TestModuleImp
 
-- (instancetype)initWithPrefix:(NSString *)prefix {
+- (id)initWithParams:(NSArray *)params {
     self = [super init];
     _continuousSubject = RACSubject.subject;
     _nameSubject = RACSubject.subject;
-    _name = prefix;
-
-    id<MallModuleType> mall= [ModuleProvider request:@protocol(MallModuleType)];
-
+    _name = params.firstObject;
     return self;
 }
 

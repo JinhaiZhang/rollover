@@ -4,8 +4,8 @@
 //
 #import <Foundation/Foundation.h>
 #import "ModuleConfig.h"
+#import "ModuleDefine.h"
 
-@class MethodDefinition;
 @class ModuleConfig;
 
 /**
@@ -23,12 +23,7 @@
 + (instancetype)definitionWithProtocol:(Protocol *)aProtocol
                          configuration:(NSArray<ModuleConfig *> *(^)(void))configuration;
 
-/**
- * 生成实例
- * @param params 实例类构造需要的参数
- * @return id
- */
-- (id)obtainInstance:(NSArray *)params;
+- (ModuleConfig *)objectAtIndexedSubscript:(NSUInteger)idx;
 
 /**
  * 覆盖配置
@@ -36,5 +31,6 @@
  */
 
 - (void)addConfigs:(NSArray<ModuleConfig *> *)configs;
+
 
 @end

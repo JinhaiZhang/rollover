@@ -14,9 +14,7 @@
             [ModuleDefinition definitionWithProtocol:@protocol(ApplicationStackType)
                                        configuration:^NSArray<ModuleConfig *> * {
                                            return @[
-                                                   [[ModuleConfig alloc] initWithCls:[ApplicationStackImp class]
-                                                                     constructMethod:nil
-                                                                               scope:ModuleScopeSingleton]];
+                                                   [[ModuleConfig alloc] initWithCls:[ApplicationStackImp class] scope:ModuleScopeSingleton]];
                                        }]
     ];
 }

@@ -22,7 +22,11 @@ static NSMapTable<NSString *, NSObject *> *weakRef;
 }
 
 + (id)request:(Protocol *)aProtocol params:(NSArray *)params {
-    return [ModuleFactory.defaultFactory obtainModuleByProtocol:aProtocol params:params];
+    return [self request:aProtocol params:params condition:0];
+}
+
++ (ModuleResponse *)request:(Protocol *)aProtocol params:(NSArray *)params condition:(ModuleIndex)condition {
+    return [ModuleFactory.defaultFactory obtainModuleByProtocol:aProtocol params:params condition:condition];
 }
 
 

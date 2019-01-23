@@ -21,12 +21,29 @@
                         <viewLayoutGuide key="safeArea" id="44P-B3-Z7w"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ne8-So-Kbe">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" title="加载" id="W5i-Qd-NC9">
+                            <connections>
+                                <action selector="loadModule:" destination="alG-Pp-9TP" id="b9o-hw-UFc"/>
+                            </connections>
+                        </barButtonItem>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="qux-Kz-XxV">
+                            <rect key="frame" x="127" y="7" width="121" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="模块1"/>
+                                <segment title="模块2"/>
+                            </segments>
+                        </segmentedControl>
                         <barButtonItem key="rightBarButtonItem" title="Clear" id="d5B-kp-Q5A">
                             <connections>
                                 <action selector="clear:" destination="alG-Pp-9TP" id="CdO-ua-itr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="segementControl" destination="qux-Kz-XxV" id="vIf-87-tN4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KGm-fp-MTb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

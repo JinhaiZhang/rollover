@@ -4,9 +4,9 @@
 //
 
 #import  "TestModuleType.h"
+#import "ModuleCreatorType.h"
 
-@interface TestModuleImp : NSObject <TestModuleOutputsType, TestModuleInputsType, TestModuleType>
-- (instancetype)initWithPrefix:(NSString *)prefix;
+@interface TestModuleImp : NSObject <TestModuleOutputsType, TestModuleInputsType, TestModuleType, ModuleCreatorType>
 @end
 
 

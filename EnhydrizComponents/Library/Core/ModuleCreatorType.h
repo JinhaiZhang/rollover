@@ -5,6 +5,13 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ * 默认模块采用的构造方式
+ */
 @protocol ModuleCreatorType <NSObject>
-- (id)initWithParams:(id)params, ...;
+@optional
++ (id)initWithParams:(NSArray *)params;
+
+@optional
+- (id)initWithParams:(NSArray *)params;
 @end

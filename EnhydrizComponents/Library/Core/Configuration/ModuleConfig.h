@@ -13,9 +13,9 @@
  */
 typedef NS_ENUM(NSInteger, ModuleScope) {
     /**
-     * 任何情况下都会有新的实例
+     * 始终创建新的实例
      */
-            ModuleScopeObjectGraph,
+            ModuleScopePrototype,
     /**
      * 作用域随着ModuleProvider, 且唯一单例
      */
@@ -24,14 +24,11 @@ typedef NS_ENUM(NSInteger, ModuleScope) {
      * 弱引用单例 从生成实例开始 直到不被任何对象持有 释放
      */
             ModuleScopeWeakSingleton,
-    /**
-     * 始终创建新的实例
-     */
-            ModuleScopePrototype
 };
 
 
 @interface ModuleConfig : NSObject
+
 /**
  * 实现协议的类型
  */
@@ -51,23 +48,6 @@ typedef NS_ENUM(NSInteger, ModuleScope) {
  * @return ModuleConfig
  */
 - (instancetype)initWithCls:(Class)cls;
-
-/**
- * 构造实例
- * @param cls 实现类
- * @param constructMethod 构造函数
- * @return ModuleConfig
- */
-- (instancetype)initWithCls:(Class)cls constructMethod:(MethodDefinition *)constructMethod;
-
-/**
- * 构造实例
- * @param cls 实现类
- * @param constructMethod 构造函数
- * @param scope 作用域
- * @return ModuleConfig
- */
-- (instancetype)initWithCls:(Class)cls constructMethod:(MethodDefinition *)constructMethod scope:(ModuleScope)scope;
 
 - (instancetype)initWithCls:(Class)cls scope:(ModuleScope)scope;
 

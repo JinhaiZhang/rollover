@@ -26,5 +26,9 @@
     return [[ModuleResponse alloc] initWithObject:object error:nil];
 }
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"{ object: %@, error: %@", self.object, self.error];
+}
+
 
 @end

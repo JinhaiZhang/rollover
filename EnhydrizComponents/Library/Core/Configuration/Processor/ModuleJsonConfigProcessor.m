@@ -19,8 +19,8 @@
         [children enumerateObjectsUsingBlock:^(NSDictionary *obj, NSUInteger idx, BOOL *stop) {
             NSNumber *number = obj[@"scope"];
             NSString *className = obj[@"class"];
-            if (number && className) {
-                [configs addObject:[[ModuleConfig alloc] initWithCls:NSClassFromString(className) scope:(ModuleScope) number.integerValue]];
+            if (className) {
+                [configs addObject:[[ModuleConfig alloc] initWithCls:NSClassFromString(className) scope:number ? (ModuleScope) number.integerValue : ModuleScopePrototype]];
             }
         }];
         if (children.count) result[key] = configs;
